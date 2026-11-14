@@ -1507,10 +1507,10 @@
     },
     {
       "id": "seg-043",
-      "start": 169.82,
+      "start": 167.88,
       "end": 170.5,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1520,13 +1520,13 @@
         {
           "hanzi": "学",
           "pinyin": "xué",
-          "start": 169.82,
-          "end": 170.16
+          "start": 167.88,
+          "end": 169.19
         },
         {
           "hanzi": "生",
           "pinyin": "shēng",
-          "start": 170.16,
+          "start": 169.19,
           "end": 170.5
         }
       ]
@@ -1574,8 +1574,8 @@
       "id": "seg-045",
       "start": 175.06,
       "end": 175.74,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1598,10 +1598,10 @@
     },
     {
       "id": "seg-046",
-      "start": 178.24,
+      "start": 175.82,
       "end": 178.92,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1611,13 +1611,13 @@
         {
           "hanzi": "先",
           "pinyin": "xiān",
-          "start": 178.24,
-          "end": 178.58
+          "start": 175.82,
+          "end": 177.37
         },
         {
           "hanzi": "生",
           "pinyin": "shēng",
-          "start": 178.58,
+          "start": 177.37,
           "end": 178.92
         }
       ]
@@ -1747,10 +1747,10 @@
     },
     {
       "id": "seg-049",
-      "start": 188.94,
+      "start": 187.54,
       "end": 189.62,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1760,13 +1760,13 @@
         {
           "hanzi": "学",
           "pinyin": "xué",
-          "start": 188.94,
-          "end": 189.28
+          "start": 187.54,
+          "end": 188.58
         },
         {
           "hanzi": "生",
           "pinyin": "shēng",
-          "start": 189.28,
+          "start": 188.58,
           "end": 189.62
         }
       ]

@@ -19,7 +19,9 @@ const state = {
   userScrollTimeout: null,
   playbackSpeed: 1.0,
   theme: 'zen',
-  lastSyncedTime: -1
+  lastSyncedTime: -1,
+  autoAdvanceTimer: null,
+  autoAdvanceInterval: null
 };
 
 const USER_SCROLL_RESUME_MS = 6000;
@@ -42,7 +44,16 @@ const elements = {
   pauseIcon: $('pauseIcon'),
   skipBackBtn: $('skipBackBtn'),
   skipForwardBtn: $('skipForwardBtn'),
+  prevTrackBtn: $('prevTrackBtn'),
+  nextTrackBtn: $('nextTrackBtn'),
   loopSentenceBtn: $('loopSentenceBtn'),
+
+  autoAdvanceBanner: $('autoAdvanceBanner'),
+  autoAdvanceCountdown: $('autoAdvanceCountdown'),
+  autoAdvanceNextTitle: $('autoAdvanceNextTitle'),
+  autoAdvancePlayBtn: $('autoAdvancePlayBtn'),
+  autoAdvanceCancelBtn: $('autoAdvanceCancelBtn'),
+  autoAdvanceProgress: $('autoAdvanceProgress'),
 
   timelineContainer: $('timelineContainer'),
   timelineProgress: $('timelineProgress'),
@@ -301,8 +312,105 @@ function markActiveTrack() {
 }
 
 // ───────────────────────────── Track loading ─────────────────────────────
-async function loadTrackData(jsonPath, trackId) {
+
+function getAllTracks(catalog = state.currentCourse) {
+  if (!catalog || !catalog.levels) return [];
+  const list = [];
+  for (const level of catalog.levels) {
+    for (const disc of level.discs) {
+      for (const tr of (disc.tracks || [])) {
+        if (tr.dataFile) list.push(tr);
+      }
+    }
+  }
+  return list;
+}
+
+function updateTrackNav() {
+  const allTracks = getAllTracks();
+  const curIdx = allTracks.findIndex((t) => t.id === state.currentTrackId);
+  if (elements.prevTrackBtn) elements.prevTrackBtn.disabled = curIdx <= 0;
+  if (elements.nextTrackBtn) elements.nextTrackBtn.disabled = curIdx === -1 || curIdx >= allTracks.length - 1;
+}
+
+function jumpTrack(delta) {
+  cancelAutoAdvance();
+  const allTracks = getAllTracks();
+  const curIdx = allTracks.findIndex((t) => t.id === state.currentTrackId);
+  if (curIdx === -1) return;
+
+  if (delta < 0 && elements.audio.currentTime > 3.0) {
+    seekAudio(0, { play: true });
+    return;
+  }
+
+  const targetIdx = curIdx + delta;
+  if (targetIdx >= 0 && targetIdx < allTracks.length) {
+    const target = allTracks[targetIdx];
+    loadTrackData(target.dataFile, target.id, { autoPlay: true });
+  }
+}
+
+function handleTrackEnded() {
+  updatePlayPauseState(false);
+  const allTracks = getAllTracks();
+  const curIdx = allTracks.findIndex((t) => t.id === state.currentTrackId);
+  if (curIdx !== -1 && curIdx < allTracks.length - 1) {
+    const nextTrack = allTracks[curIdx + 1];
+    startAutoAdvance(nextTrack);
+  }
+}
+
+function startAutoAdvance(nextTrack) {
+  cancelAutoAdvance();
+  if (!elements.autoAdvanceBanner || !nextTrack) return;
+
+  const totalSeconds = 4;
+  let remaining = totalSeconds;
+
+  const nextTitle = nextTrack.title.replace(/^.*?Track\s*\d+:\s*/i, '');
+  if (elements.autoAdvanceNextTitle) elements.autoAdvanceNextTitle.textContent = nextTitle;
+  if (elements.autoAdvanceCountdown) elements.autoAdvanceCountdown.textContent = remaining;
+  elements.autoAdvanceBanner.classList.remove('hidden');
+
+  if (elements.autoAdvanceProgress) {
+    elements.autoAdvanceProgress.style.transition = 'none';
+    elements.autoAdvanceProgress.style.transform = 'scaleX(1)';
+    void elements.autoAdvanceProgress.offsetWidth;
+    elements.autoAdvanceProgress.style.transition = `transform ${totalSeconds}s linear`;
+    elements.autoAdvanceProgress.style.transform = 'scaleX(0)';
+  }
+
+  state.autoAdvanceInterval = setInterval(() => {
+    remaining -= 1;
+    if (elements.autoAdvanceCountdown) {
+      elements.autoAdvanceCountdown.textContent = Math.max(0, remaining);
+    }
+  }, 1000);
+
+  state.autoAdvanceTimer = setTimeout(() => {
+    cancelAutoAdvance();
+    loadTrackData(nextTrack.dataFile, nextTrack.id, { autoPlay: true });
+  }, totalSeconds * 1000);
+}
+
+function cancelAutoAdvance() {
+  if (state.autoAdvanceTimer) {
+    clearTimeout(state.autoAdvanceTimer);
+    state.autoAdvanceTimer = null;
+  }
+  if (state.autoAdvanceInterval) {
+    clearInterval(state.autoAdvanceInterval);
+    state.autoAdvanceInterval = null;
+  }
+  if (elements.autoAdvanceBanner) {
+    elements.autoAdvanceBanner.classList.add('hidden');
+  }
+}
+
+async function loadTrackData(jsonPath, trackId, { autoPlay = false } = {}) {
   try {
+    cancelAutoAdvance();
     const res = await fetch(jsonPath);
     const data = await res.json();
     state.currentTrackData = data;
@@ -325,6 +433,18 @@ async function loadTrackData(jsonPath, trackId) {
     renderTranscriptCards(data.segments);
     renderTimelineTicks();
     markActiveTrack();
+    updateTrackNav();
+
+    // Auto-expand current disc in curriculum sidebar
+    const discEl = elements.courseTree.querySelector(`.track-item[data-id="${state.currentTrackId}"]`);
+    if (discEl) {
+      const group = discEl.closest('.disc-group');
+      if (group && !group.classList.contains('expanded')) {
+        group.classList.add('expanded');
+        const toggle = group.querySelector('.disc-toggle');
+        if (toggle) toggle.setAttribute('aria-expanded', 'true');
+      }
+    }
 
     state.activeSegmentIndex = -1;
     state.activeWordIndex = -1;
@@ -332,6 +452,12 @@ async function loadTrackData(jsonPath, trackId) {
     updateLineNav();
     updateProgressUI();
     window.scrollTo({ top: 0, behavior: 'auto' });
+
+    if (autoPlay) {
+      elements.audio.play().then(() => updatePlayPauseState(true)).catch(() => updatePlayPauseState(false));
+    } else {
+      updatePlayPauseState(false);
+    }
   } catch (err) {
     console.error('Failed to load track data:', err);
     elements.transcriptStream.innerHTML = `<p class="error-msg">Failed to load transcript data.</p>`;
@@ -340,10 +466,12 @@ async function loadTrackData(jsonPath, trackId) {
 
 // ───────────────────────────── Transcript rendering ─────────────────────────────
 const SPEAKERS = {
-  teacher:      { cls: 'teacher', glyph: '师', role: 'Teacher' },
-  student:      { cls: 'student', glyph: '生', role: 'Student' },
-  native_guide: { cls: 'native',  glyph: '范', role: 'Native speaker' },
-  announcer:    { cls: 'announcer', glyph: '序', role: 'Narrator' }
+  teacher:        { cls: 'teacher',   glyph: '师', role: 'Harold Goodman (Teacher)' },
+  student:        { cls: 'student',   glyph: '生', role: 'Student' },
+  student_female: { cls: 'student',   glyph: '女', role: 'Female Student' },
+  student_male:   { cls: 'student',   glyph: '男', role: 'Male Student' },
+  native_guide:   { cls: 'native',    glyph: '范', role: 'Native Teacher' },
+  announcer:      { cls: 'announcer', glyph: '序', role: 'Narrator' }
 };
 
 function speakerMeta(seg) {
@@ -351,8 +479,9 @@ function speakerMeta(seg) {
   const base = key.includes('teacher') ? SPEAKERS.teacher
     : key.includes('native') ? SPEAKERS.native_guide
     : (key.includes('announcer') || key.includes('intro')) ? SPEAKERS.announcer
+    : key.includes('female') ? SPEAKERS.student_female
+    : key.includes('male') ? SPEAKERS.student_male
     : SPEAKERS.student;
-  // "Harold Goodman (Teacher)" → name "Harold Goodman", role "Teacher"
   let name = seg.speakerName || base.role;
   let role = base.role;
   const m = name.match(/^(.*?)\s*\((.+)\)\s*$/);
@@ -478,10 +607,21 @@ function startAnimationFrameSync() {
 
 function findSegmentIndex(currentTime) {
   const segments = state.currentTrackData?.segments || [];
+  if (!segments.length) return -1;
+
+  // 1. Exact hit inside segment [start, end)
   for (let i = 0; i < segments.length; i++) {
     if (currentTime >= segments[i].start && currentTime < segments[i].end) return i;
   }
-  // Between lines: keep the most recent one active
+
+  // 2. Lookahead anticipation in the transition window (up to 200ms before segment starts)
+  for (let i = 0; i < segments.length; i++) {
+    if (currentTime >= segments[i].start - 0.20 && currentTime < segments[i].start) {
+      return i;
+    }
+  }
+
+  // 3. Between lines: keep the most recent one active
   for (let i = segments.length - 1; i >= 0; i--) {
     if (currentTime >= segments[i].start) return i;
   }
@@ -821,16 +961,24 @@ function setupScrubber() {
 function setupEventListeners() {
   const a = elements.audio;
   elements.playPauseBtn.addEventListener('click', togglePlayPause);
-  a.addEventListener('play', () => updatePlayPauseState(true));
+  a.addEventListener('play', () => { cancelAutoAdvance(); updatePlayPauseState(true); });
   a.addEventListener('pause', () => updatePlayPauseState(false));
-  a.addEventListener('ended', () => updatePlayPauseState(false));
-  a.addEventListener('loadedmetadata', () => { renderTimelineTicks(); updateProgressUI(); });
+  a.addEventListener('ended', handleTrackEnded);
+  a.addEventListener('loadedmetadata', () => { renderTimelineTicks(); updateProgressUI(); updateTrackNav(); });
 
-  elements.skipBackBtn.addEventListener('click', () => seekAudio(a.currentTime - 5));
-  elements.skipForwardBtn.addEventListener('click', () => seekAudio(a.currentTime + 5));
+  elements.prevTrackBtn?.addEventListener('click', () => jumpTrack(-1));
+  elements.nextTrackBtn?.addEventListener('click', () => jumpTrack(1));
+  elements.skipBackBtn.addEventListener('click', () => { cancelAutoAdvance(); seekAudio(a.currentTime - 5); });
+  elements.skipForwardBtn.addEventListener('click', () => { cancelAutoAdvance(); seekAudio(a.currentTime + 5); });
   elements.loopSentenceBtn.addEventListener('click', toggleLoop);
   elements.prevLineBtn.addEventListener('click', () => jumpLine(-1));
   elements.nextLineBtn.addEventListener('click', () => jumpLine(1));
+
+  elements.autoAdvancePlayBtn?.addEventListener('click', () => {
+    cancelAutoAdvance();
+    jumpTrack(1);
+  });
+  elements.autoAdvanceCancelBtn?.addEventListener('click', cancelAutoAdvance);
 
   setupScrubber();
 
@@ -921,6 +1069,12 @@ function setupEventListeners() {
     } else if (e.code === 'ArrowRight') {
       e.preventDefault();
       if (e.shiftKey) jumpLine(1); else seekAudio(elements.audio.currentTime + 5);
+    } else if (e.key === '[' || (e.altKey && e.code === 'ArrowLeft')) {
+      e.preventDefault();
+      jumpTrack(-1);
+    } else if (e.key === ']' || (e.altKey && e.code === 'ArrowRight')) {
+      e.preventDefault();
+      jumpTrack(1);
     } else if (e.key.toLowerCase() === 'p') {
       togglePinyin();
     } else if (e.key.toLowerCase() === 't') {

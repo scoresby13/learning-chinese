@@ -131,6 +131,19 @@
     <footer class="player-dock" aria-label="Audio player">
       <div class="player-wrapper">
 
+        <!-- Auto-advance countdown banner -->
+        <div id="autoAdvanceBanner" class="auto-advance-banner hidden" role="status" aria-live="polite">
+          <div class="auto-advance-content">
+            <span class="auto-advance-icon" aria-hidden="true">⏱️</span>
+            <span class="auto-advance-text">Next track in <strong id="autoAdvanceCountdown">4</strong>s: <em id="autoAdvanceNextTitle">—</em></span>
+          </div>
+          <div class="auto-advance-actions">
+            <button id="autoAdvancePlayBtn" class="auto-advance-btn play" title="Play next track now">Play now</button>
+            <button id="autoAdvanceCancelBtn" class="auto-advance-btn cancel" title="Stay on this track">Stay</button>
+          </div>
+          <div id="autoAdvanceProgress" class="auto-advance-progress" aria-hidden="true"></div>
+        </div>
+
         <!-- Scrubber -->
         <div class="scrubber-bar">
           <span id="currentTimeDisplay" class="time-label">0:00</span>
@@ -163,6 +176,10 @@
               <span class="tool-label">Loop line</span>
             </button>
 
+            <button id="prevTrackBtn" class="ctrl-btn secondary track-btn" title="Previous track ([)" aria-label="Previous track">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M6 5a1 1 0 0 1 1 1v12a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1zm12.2 1.4a1 1 0 0 0-1.5-.86l-9 5.6a1 1 0 0 0 0 1.72l9 5.6a1 1 0 0 0 1.5-.86V6.4z"/></svg>
+            </button>
+
             <button id="skipBackBtn" class="ctrl-btn secondary" title="Back 5 seconds (←)" aria-label="Back 5 seconds">
               <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3"/><path d="M6.7 2.8v3.9h3.9"/><text x="12" y="15.6" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor" stroke="none" font-family="Plus Jakarta Sans, sans-serif">5</text></svg>
             </button>
@@ -174,6 +191,10 @@
 
             <button id="skipForwardBtn" class="ctrl-btn secondary" title="Forward 5 seconds (→)" aria-label="Forward 5 seconds">
               <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12a7.5 7.5 0 1 1-2.2-5.3"/><path d="M17.3 2.8v3.9h-3.9"/><text x="12" y="15.6" text-anchor="middle" font-size="8" font-weight="700" fill="currentColor" stroke="none" font-family="Plus Jakarta Sans, sans-serif">5</text></svg>
+            </button>
+
+            <button id="nextTrackBtn" class="ctrl-btn secondary track-btn" title="Next track (])" aria-label="Next track">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 5a1 1 0 0 1 1 1v12a1 1 0 1 1-2 0V6a1 1 0 0 1 1-1zM5.8 6.4a1 1 0 0 1 1.5-.86l9 5.6a1 1 0 0 1 0 1.72l-9 5.6a1 1 0 0 1-1.5-.86V6.4z"/></svg>
             </button>
 
             <!-- Speed -->

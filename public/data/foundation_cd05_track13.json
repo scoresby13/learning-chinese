@@ -73,10 +73,10 @@
     },
     {
       "id": "seg-002",
-      "start": 5.68,
+      "start": 3.78,
       "end": 6.06,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -86,7 +86,7 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 5.68,
+          "start": 3.78,
           "end": 6.06
         }
       ]
@@ -132,10 +132,10 @@
     },
     {
       "id": "seg-004",
-      "start": 10.98,
+      "start": 10.26,
       "end": 11.56,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -145,17 +145,17 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 10.98,
+          "start": 10.26,
           "end": 11.56
         }
       ]
     },
     {
       "id": "seg-005",
-      "start": 12.52,
+      "start": 11.64,
       "end": 13.24,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -165,7 +165,7 @@
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 12.52,
+          "start": 11.64,
           "end": 13.24
         }
       ]
@@ -240,10 +240,10 @@
     },
     {
       "id": "seg-008",
-      "start": 21.68,
+      "start": 19.06,
       "end": 21.78,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -253,13 +253,13 @@
         {
           "hanzi": "现",
           "pinyin": "xiàn",
-          "start": 21.68,
-          "end": 21.73
+          "start": 19.06,
+          "end": 20.42
         },
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 21.73,
+          "start": 20.42,
           "end": 21.78
         }
       ]
@@ -522,10 +522,10 @@
     },
     {
       "id": "seg-013",
-      "start": 48.2,
+      "start": 47.66,
       "end": 48.86,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -535,23 +535,23 @@
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 48.2,
-          "end": 48.53
+          "start": 47.66,
+          "end": 48.26
         },
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 48.53,
+          "start": 48.26,
           "end": 48.86
         }
       ]
     },
     {
       "id": "seg-014",
-      "start": 50.56,
+      "start": 49.02,
       "end": 51.22,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -561,13 +561,13 @@
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 50.56,
-          "end": 50.89
+          "start": 49.02,
+          "end": 50.12
         },
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 50.89,
+          "start": 50.12,
           "end": 51.22
         }
       ]
@@ -712,10 +712,10 @@
     },
     {
       "id": "seg-017",
-      "start": 65.02,
+      "start": 61.96,
       "end": 65.22,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -725,20 +725,20 @@
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 65.02,
-          "end": 65.09
+          "start": 61.96,
+          "end": 63.05
         },
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 65.09,
-          "end": 65.15
+          "start": 63.05,
+          "end": 64.14
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 65.15,
-          "end": 65.22
+          "start": 64.14,
+          "end": 65.23
         }
       ]
     },
@@ -746,8 +746,8 @@
       "id": "seg-018",
       "start": 65.22,
       "end": 66.52,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -901,10 +901,10 @@
     },
     {
       "id": "seg-022",
-      "start": 81.28,
+      "start": 76.8,
       "end": 82.0,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -914,29 +914,29 @@
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 81.28,
-          "end": 81.52
+          "start": 76.8,
+          "end": 78.53
         },
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 81.52,
-          "end": 81.76
+          "start": 78.53,
+          "end": 80.26
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 81.76,
+          "start": 80.27,
           "end": 82.0
         }
       ]
     },
     {
       "id": "seg-023",
-      "start": 83.42,
+      "start": 82.08,
       "end": 84.14,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -946,20 +946,20 @@
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 83.42,
-          "end": 83.66
+          "start": 82.08,
+          "end": 82.77
         },
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 83.66,
-          "end": 83.9
+          "start": 82.77,
+          "end": 83.46
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 83.9,
-          "end": 84.14
+          "start": 83.46,
+          "end": 84.15
         }
       ]
     },
@@ -967,8 +967,8 @@
       "id": "seg-024",
       "start": 84.14,
       "end": 84.94,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -985,13 +985,13 @@
           "hanzi": "家",
           "pinyin": "jiā",
           "start": 84.41,
-          "end": 84.67
+          "end": 84.68
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 84.67,
-          "end": 84.94
+          "start": 84.68,
+          "end": 84.95
         }
       ]
     },
@@ -999,8 +999,8 @@
       "id": "seg-025",
       "start": 84.94,
       "end": 85.16,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1175,10 +1175,10 @@
     },
     {
       "id": "seg-028",
-      "start": 95.48,
+      "start": 94.98,
       "end": 95.94,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1188,7 +1188,7 @@
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 95.48,
+          "start": 94.98,
           "end": 95.94
         }
       ]
@@ -1249,10 +1249,10 @@
     },
     {
       "id": "seg-030",
-      "start": 106.94,
+      "start": 101.94,
       "end": 107.62,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1539,10 +1539,10 @@
     },
     {
       "id": "seg-036",
-      "start": 134.06,
+      "start": 132.42,
       "end": 134.7,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1552,13 +1552,13 @@
         {
           "hanzi": "书",
           "pinyin": "shū",
-          "start": 134.06,
-          "end": 134.38
+          "start": 132.42,
+          "end": 133.56
         },
         {
           "hanzi": "是",
           "pinyin": "shì",
-          "start": 134.38,
+          "start": 133.56,
           "end": 134.7
         }
       ]
@@ -1614,10 +1614,10 @@
     },
     {
       "id": "seg-038",
-      "start": 142.24,
+      "start": 139.96,
       "end": 142.88,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1627,23 +1627,23 @@
         {
           "hanzi": "书",
           "pinyin": "shū",
-          "start": 142.24,
-          "end": 142.56
+          "start": 139.96,
+          "end": 141.42
         },
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 142.56,
+          "start": 141.42,
           "end": 142.88
         }
       ]
     },
     {
       "id": "seg-039",
-      "start": 144.28,
+      "start": 142.96,
       "end": 144.92,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1653,13 +1653,13 @@
         {
           "hanzi": "书",
           "pinyin": "shū",
-          "start": 144.28,
-          "end": 144.6
+          "start": 142.96,
+          "end": 143.94
         },
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 144.6,
+          "start": 143.94,
           "end": 144.92
         }
       ]
@@ -1668,8 +1668,8 @@
       "id": "seg-040",
       "start": 144.94,
       "end": 146.2,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1726,10 +1726,10 @@
     },
     {
       "id": "seg-042",
-      "start": 151.1,
+      "start": 149.52,
       "end": 151.56,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1739,25 +1739,25 @@
         {
           "hanzi": "书",
           "pinyin": "shū",
-          "start": 151.1,
-          "end": 151.22
+          "start": 149.52,
+          "end": 150.03
         },
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 151.22,
-          "end": 151.33
+          "start": 150.03,
+          "end": 150.54
         },
         {
           "hanzi": "哪",
           "pinyin": "nǎ",
-          "start": 151.33,
-          "end": 151.44
+          "start": 150.54,
+          "end": 151.05
         },
         {
           "hanzi": "儿",
           "pinyin": "ér",
-          "start": 151.44,
+          "start": 151.05,
           "end": 151.56
         }
       ]
@@ -1810,8 +1810,8 @@
       "id": "seg-044",
       "start": 160.42,
       "end": 161.5,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1853,10 +1853,10 @@
     },
     {
       "id": "seg-046",
-      "start": 167.38,
+      "start": 163.42,
       "end": 168.46,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1866,25 +1866,25 @@
         {
           "hanzi": "我",
           "pinyin": "wǒ",
-          "start": 167.38,
-          "end": 167.65
+          "start": 163.42,
+          "end": 164.68
         },
         {
           "hanzi": "的",
           "pinyin": "de",
-          "start": 167.65,
-          "end": 167.92
+          "start": 164.68,
+          "end": 165.94
         },
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 167.92,
-          "end": 168.19
+          "start": 165.94,
+          "end": 167.2
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 168.19,
+          "start": 167.2,
           "end": 168.46
         }
       ]
@@ -1937,8 +1937,8 @@
       "id": "seg-048",
       "start": 173.28,
       "end": 174.36,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1961,10 +1961,10 @@
     },
     {
       "id": "seg-049",
-      "start": 176.74,
+      "start": 174.44,
       "end": 177.54,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -1974,26 +1974,26 @@
         {
           "hanzi": "我",
           "pinyin": "wǒ",
-          "start": 176.74,
-          "end": 176.94
+          "start": 174.44,
+          "end": 175.22
         },
         {
           "hanzi": "的",
           "pinyin": "de",
-          "start": 176.94,
-          "end": 177.14
+          "start": 175.22,
+          "end": 176.0
         },
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 177.14,
-          "end": 177.34
+          "start": 176.0,
+          "end": 176.78
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 177.34,
-          "end": 177.54
+          "start": 176.78,
+          "end": 177.56
         }
       ]
     },
@@ -2288,10 +2288,10 @@
     },
     {
       "id": "seg-056",
-      "start": 203.26,
+      "start": 202.0,
       "end": 204.06,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2301,23 +2301,23 @@
         {
           "hanzi": "你",
           "pinyin": "nǐ",
-          "start": 203.26,
-          "end": 203.66
+          "start": 202.0,
+          "end": 203.03
         },
         {
           "hanzi": "有",
           "pinyin": "yǒu",
-          "start": 203.66,
+          "start": 203.03,
           "end": 204.06
         }
       ]
     },
     {
       "id": "seg-057",
-      "start": 206.68,
+      "start": 204.14,
       "end": 207.08,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2327,23 +2327,23 @@
         {
           "hanzi": "什",
           "pinyin": "shén",
-          "start": 206.68,
-          "end": 206.88
+          "start": 204.14,
+          "end": 205.61
         },
         {
           "hanzi": "么",
           "pinyin": "me",
-          "start": 206.88,
+          "start": 205.61,
           "end": 207.08
         }
       ]
     },
     {
       "id": "seg-058",
-      "start": 211.7,
+      "start": 207.16,
       "end": 212.1,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2353,20 +2353,20 @@
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 211.7,
-          "end": 211.83
+          "start": 207.16,
+          "end": 208.81
         },
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 211.83,
-          "end": 211.97
+          "start": 208.81,
+          "end": 210.46
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 211.97,
-          "end": 212.1
+          "start": 210.46,
+          "end": 212.11
         }
       ]
     },
@@ -2396,10 +2396,10 @@
     },
     {
       "id": "seg-060",
-      "start": 215.5,
+      "start": 213.84,
       "end": 215.9,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2409,13 +2409,13 @@
         {
           "hanzi": "你",
           "pinyin": "nǐ",
-          "start": 215.5,
-          "end": 215.7
+          "start": 213.84,
+          "end": 214.87
         },
         {
           "hanzi": "的",
           "pinyin": "de",
-          "start": 215.7,
+          "start": 214.87,
           "end": 215.9
         }
       ]
@@ -2568,10 +2568,10 @@
     },
     {
       "id": "seg-065",
-      "start": 225.58,
+      "start": 223.22,
       "end": 225.98,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2581,23 +2581,23 @@
         {
           "hanzi": "你",
           "pinyin": "nǐ",
-          "start": 225.58,
-          "end": 225.78
+          "start": 223.22,
+          "end": 224.6
         },
         {
           "hanzi": "有",
           "pinyin": "yǒu",
-          "start": 225.78,
+          "start": 224.6,
           "end": 225.98
         }
       ]
     },
     {
       "id": "seg-066",
-      "start": 227.62,
+      "start": 226.06,
       "end": 228.02,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2607,23 +2607,23 @@
         {
           "hanzi": "什",
           "pinyin": "shén",
-          "start": 227.62,
-          "end": 227.82
+          "start": 226.06,
+          "end": 227.04
         },
         {
           "hanzi": "么",
           "pinyin": "me",
-          "start": 227.82,
+          "start": 227.04,
           "end": 228.02
         }
       ]
     },
     {
       "id": "seg-067",
-      "start": 232.96,
+      "start": 228.1,
       "end": 233.36,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2633,19 +2633,19 @@
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 232.96,
-          "end": 233.09
+          "start": 228.1,
+          "end": 229.85
         },
         {
           "hanzi": "你",
           "pinyin": "nǐ",
-          "start": 233.09,
-          "end": 233.23
+          "start": 229.85,
+          "end": 231.6
         },
         {
           "hanzi": "的",
           "pinyin": "de",
-          "start": 233.23,
+          "start": 231.61,
           "end": 233.36
         }
       ]
@@ -2654,8 +2654,8 @@
       "id": "seg-068",
       "start": 233.36,
       "end": 234.04,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2692,8 +2692,8 @@
       "id": "seg-069",
       "start": 235.34,
       "end": 236.06,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2710,7 +2710,7 @@
           "hanzi": "你",
           "pinyin": "nǐ",
           "start": 235.48,
-          "end": 235.63
+          "end": 235.62
         },
         {
           "hanzi": "的",
@@ -2722,7 +2722,7 @@
           "hanzi": "家",
           "pinyin": "jiā",
           "start": 235.77,
-          "end": 235.92
+          "end": 235.91
         },
         {
           "hanzi": "里",
@@ -2736,8 +2736,8 @@
       "id": "seg-070",
       "start": 236.06,
       "end": 236.48,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2799,10 +2799,10 @@
     },
     {
       "id": "seg-072",
-      "start": 241.3,
+      "start": 239.98,
       "end": 242.02,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2812,23 +2812,23 @@
         {
           "hanzi": "什",
           "pinyin": "shén",
-          "start": 241.3,
-          "end": 241.66
+          "start": 239.98,
+          "end": 241.0
         },
         {
           "hanzi": "么",
           "pinyin": "me",
-          "start": 241.66,
+          "start": 241.0,
           "end": 242.02
         }
       ]
     },
     {
       "id": "seg-073",
-      "start": 242.98,
+      "start": 242.1,
       "end": 243.7,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2838,23 +2838,23 @@
         {
           "hanzi": "什",
           "pinyin": "shén",
-          "start": 242.98,
-          "end": 243.34
+          "start": 242.1,
+          "end": 242.9
         },
         {
           "hanzi": "么",
           "pinyin": "me",
-          "start": 243.34,
+          "start": 242.9,
           "end": 243.7
         }
       ]
     },
     {
       "id": "seg-074",
-      "start": 244.56,
+      "start": 243.8,
       "end": 245.28,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2864,13 +2864,13 @@
         {
           "hanzi": "什",
           "pinyin": "shén",
-          "start": 244.56,
-          "end": 244.92
+          "start": 243.8,
+          "end": 244.54
         },
         {
           "hanzi": "么",
           "pinyin": "me",
-          "start": 244.92,
+          "start": 244.54,
           "end": 245.28
         }
       ]
@@ -2879,8 +2879,8 @@
       "id": "seg-075",
       "start": 245.28,
       "end": 245.68,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2903,10 +2903,10 @@
     },
     {
       "id": "seg-076",
-      "start": 246.48,
+      "start": 245.92,
       "end": 246.76,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -2916,13 +2916,13 @@
         {
           "hanzi": "什",
           "pinyin": "shén",
-          "start": 246.48,
-          "end": 246.62
+          "start": 245.92,
+          "end": 246.34
         },
         {
           "hanzi": "么",
           "pinyin": "me",
-          "start": 246.62,
+          "start": 246.34,
           "end": 246.76
         }
       ]
@@ -2931,8 +2931,8 @@
       "id": "seg-077",
       "start": 246.76,
       "end": 246.86,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3028,10 +3028,10 @@
     },
     {
       "id": "seg-080",
-      "start": 256.72,
+      "start": 251.3,
       "end": 257.44,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3145,10 +3145,10 @@
     },
     {
       "id": "seg-082",
-      "start": 263.32,
+      "start": 260.26,
       "end": 264.04,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3213,10 +3213,10 @@
     },
     {
       "id": "seg-083",
-      "start": 275.66,
+      "start": 270.5,
       "end": 276.1,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3324,10 +3324,10 @@
     },
     {
       "id": "seg-085",
-      "start": 285.92,
+      "start": 279.92,
       "end": 286.36,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3484,10 +3484,10 @@
     },
     {
       "id": "seg-088",
-      "start": 311.2,
+      "start": 305.3,
       "end": 311.72,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3612,10 +3612,10 @@
     },
     {
       "id": "seg-090",
-      "start": 321.7,
+      "start": 315.7,
       "end": 322.22,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3758,10 +3758,10 @@
     },
     {
       "id": "seg-094",
-      "start": 330.22,
+      "start": 327.1,
       "end": 330.54,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3771,17 +3771,17 @@
         {
           "hanzi": "有",
           "pinyin": "yǒu",
-          "start": 330.22,
+          "start": 327.1,
           "end": 330.54
         }
       ]
     },
     {
       "id": "seg-095",
-      "start": 331.52,
+      "start": 330.62,
       "end": 332.36,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3791,7 +3791,7 @@
         {
           "hanzi": "有",
           "pinyin": "yǒu",
-          "start": 331.52,
+          "start": 330.62,
           "end": 332.36
         }
       ]
@@ -3837,10 +3837,10 @@
     },
     {
       "id": "seg-097",
-      "start": 348.2,
+      "start": 343.52,
       "end": 349.04,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3960,10 +3960,10 @@
     },
     {
       "id": "seg-100",
-      "start": 356.0,
+      "start": 353.52,
       "end": 356.64,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -3973,13 +3973,13 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 356.0,
-          "end": 356.32
+          "start": 353.52,
+          "end": 355.08
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 356.32,
+          "start": 355.08,
           "end": 356.64
         }
       ]
@@ -4015,10 +4015,10 @@
     },
     {
       "id": "seg-102",
-      "start": 361.34,
+      "start": 360.54,
       "end": 361.98,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4028,23 +4028,23 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 361.34,
-          "end": 361.66
+          "start": 360.54,
+          "end": 361.26
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 361.66,
+          "start": 361.26,
           "end": 361.98
         }
       ]
     },
     {
       "id": "seg-103",
-      "start": 363.3,
+      "start": 362.06,
       "end": 363.94,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4054,17 +4054,17 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 363.3,
+          "start": 362.06,
           "end": 363.94
         }
       ]
     },
     {
       "id": "seg-104",
-      "start": 364.98,
+      "start": 364.02,
       "end": 365.62,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4074,17 +4074,17 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 364.98,
+          "start": 364.02,
           "end": 365.62
         }
       ]
     },
     {
       "id": "seg-105",
-      "start": 366.64,
+      "start": 365.7,
       "end": 367.28,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4094,13 +4094,13 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 366.64,
-          "end": 366.96
+          "start": 365.7,
+          "end": 366.49
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 366.96,
+          "start": 366.49,
           "end": 367.28
         }
       ]
@@ -4242,10 +4242,10 @@
     },
     {
       "id": "seg-111",
-      "start": 376.3,
+      "start": 375.12,
       "end": 376.94,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4255,23 +4255,23 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 376.3,
-          "end": 376.62
+          "start": 375.12,
+          "end": 376.03
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 376.62,
+          "start": 376.03,
           "end": 376.94
         }
       ]
     },
     {
       "id": "seg-112",
-      "start": 378.18,
+      "start": 377.02,
       "end": 378.82,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4281,17 +4281,17 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 378.18,
+          "start": 377.02,
           "end": 378.82
         }
       ]
     },
     {
       "id": "seg-113",
-      "start": 379.6,
+      "start": 378.9,
       "end": 380.24,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4301,7 +4301,7 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 379.6,
+          "start": 378.9,
           "end": 380.24
         }
       ]
@@ -4344,8 +4344,8 @@
       "id": "seg-115",
       "start": 382.04,
       "end": 382.28,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4408,8 +4408,8 @@
       "id": "seg-117",
       "start": 386.0,
       "end": 387.04,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4434,8 +4434,8 @@
       "id": "seg-118",
       "start": 388.16,
       "end": 389.2,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4460,8 +4460,8 @@
       "id": "seg-119",
       "start": 389.2,
       "end": 390.16,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4553,10 +4553,10 @@
     },
     {
       "id": "seg-121",
-      "start": 398.76,
+      "start": 394.34,
       "end": 399.8,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4566,19 +4566,19 @@
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 398.76,
-          "end": 399.11
+          "start": 394.34,
+          "end": 396.16
         },
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 399.11,
-          "end": 399.45
+          "start": 396.16,
+          "end": 397.98
         },
         {
           "hanzi": "里",
           "pinyin": "lǐ",
-          "start": 399.45,
+          "start": 397.98,
           "end": 399.8
         }
       ]
@@ -4587,8 +4587,8 @@
       "id": "seg-122",
       "start": 399.8,
       "end": 401.08,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4607,8 +4607,8 @@
       "id": "seg-123",
       "start": 401.08,
       "end": 402.3,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4627,8 +4627,8 @@
       "id": "seg-124",
       "start": 402.3,
       "end": 402.8,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4684,10 +4684,10 @@
     },
     {
       "id": "seg-126",
-      "start": 410.3,
+      "start": 406.02,
       "end": 411.34,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4742,8 +4742,8 @@
       "id": "seg-127",
       "start": 411.9,
       "end": 412.94,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4768,8 +4768,8 @@
       "id": "seg-128",
       "start": 412.94,
       "end": 414.02,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4826,10 +4826,10 @@
     },
     {
       "id": "seg-130",
-      "start": 425.46,
+      "start": 419.82,
       "end": 426.1,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4910,10 +4910,10 @@
     },
     {
       "id": "seg-132",
-      "start": 432.54,
+      "start": 428.52,
       "end": 433.18,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -4999,10 +4999,10 @@
     },
     {
       "id": "seg-134",
-      "start": 441.76,
+      "start": 436.12,
       "end": 442.4,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5051,8 +5051,8 @@
       "id": "seg-135",
       "start": 443.36,
       "end": 444.0,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5101,8 +5101,8 @@
       "id": "seg-136",
       "start": 445.3,
       "end": 446.02,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5149,10 +5149,10 @@
     },
     {
       "id": "seg-138",
-      "start": 460.1,
+      "start": 456.36,
       "end": 460.82,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5244,10 +5244,10 @@
     },
     {
       "id": "seg-140",
-      "start": 465.26,
+      "start": 463.82,
       "end": 465.98,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5257,7 +5257,7 @@
         {
           "hanzi": "家",
           "pinyin": "jiā",
-          "start": 465.26,
+          "start": 463.82,
           "end": 465.98
         }
       ]
@@ -5266,8 +5266,8 @@
       "id": "seg-141",
       "start": 465.98,
       "end": 467.06,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5323,10 +5323,10 @@
     },
     {
       "id": "seg-143",
-      "start": 473.28,
+      "start": 469.9,
       "end": 474.0,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5375,8 +5375,8 @@
       "id": "seg-144",
       "start": 474.02,
       "end": 475.62,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5487,10 +5487,10 @@
     },
     {
       "id": "seg-147",
-      "start": 494.74,
+      "start": 490.06,
       "end": 495.68,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5567,10 +5567,10 @@
     },
     {
       "id": "seg-148",
-      "start": 498.92,
+      "start": 495.76,
       "end": 499.86,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5667,8 +5667,8 @@
       "id": "seg-151",
       "start": 502.38,
       "end": 503.32,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5687,8 +5687,8 @@
       "id": "seg-152",
       "start": 503.32,
       "end": 504.34,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5719,8 +5719,8 @@
       "id": "seg-153",
       "start": 504.34,
       "end": 504.94,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5773,10 +5773,10 @@
     },
     {
       "id": "seg-155",
-      "start": 510.14,
+      "start": 506.68,
       "end": 510.9,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5828,10 +5828,10 @@
     },
     {
       "id": "seg-157",
-      "start": 516.48,
+      "start": 512.44,
       "end": 517.24,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_male",
+      "speakerName": "Student (Male)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -5936,10 +5936,10 @@
     },
     {
       "id": "seg-159",
-      "start": 532.54,
+      "start": 526.68,
       "end": 533.3,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "student_female",
+      "speakerName": "Student (Female)",
       "type": "instruction",
       "language": "zh",
       "english": "",
@@ -6060,8 +6060,8 @@
       "id": "seg-160",
       "start": 533.32,
       "end": 534.52,
-      "speaker": "teacher",
-      "speakerName": "Harold Goodman (Teacher)",
+      "speaker": "native_guide",
+      "speakerName": "Native Chinese Teacher",
       "type": "instruction",
       "language": "zh",
       "english": "",
