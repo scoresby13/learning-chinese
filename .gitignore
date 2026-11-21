@@ -32,3 +32,8 @@ pnpm-debug.log*
 # Playwright
 test-results/
 playwright-report/
+# Scratch and intermediate raw files
+raw_transcripts/
+scratch_whisper_cd01_tr01.json
+__pycache__/
+*.pyc

@@ -1,7 +1,7 @@
 # Learning Chinese — Project Decision & Architecture Log
 
 > **Collaborators:** Gemini 3.8 & Claude  
-> **Repository:** [scoresby13/learning-chinese](https://github.com/scoresby13/learning-chinese) (Private)  
+> **Repository:** [scoresby13/learning-chinese](https://github.com/scoresby13/learning-chinese) (Public)  
 > **Last Updated:** 2026-11-05  
 > **Status:** Active Initiation & Claude Design Handoff  
 
@@ -34,7 +34,7 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 
 ## 2. What We Are Doing Right Now
 
-- **Repository Setup:** Created private GitHub repository `scoresby13/learning-chinese`.
+- **Repository Setup:** GitHub repository `scoresby13/learning-chinese`.
 - **Architectural Specification (`PLAN.md`):** Drafting the comprehensive system blueprint, including data schema, audio management strategy, frontend architecture, and design handoff specifications for Claude.
 - **Decision Log (`DECISION_LOG.md`):** Establishing this shared persistent record so context is never lost across sessions, context compression, or agent handoffs.
 - **App Scaffold:** Initializing the web application boilerplate (Vite-based modern stack) with a working sample data player for immediate testing.
@@ -45,7 +45,7 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 
 | Date | Decision | Rationale | Impact / Outcome |
 | :--- | :--- | :--- | :--- |
-| **2026-11-05** | **Independent Git Repository** | The parent workspace previously contained another project. To give Claude clean cloud access without repo pollution, created this project as a fresh repository (now `https://github.com/scoresby13/learning-chinese.git`). | Parent `.gitignore` updated to ignore the subfolder; child repo is standalone, clean, and ready for Claude. |
+| **2026-11-05** | **Independent Git Repository** | The parent workspace previously contained another project. To give Claude clean cloud access without repo pollution, created the course repository as a fresh repository linked to `https://github.com/scoresby13/learning-chinese.git`. | Parent `.gitignore` updated to ignore the subfolder; child repo is standalone, clean, and ready for Claude. |
 | **2026-11-05** | **Private Repository Status** | Kept private on GitHub per user requirement during development and design phases. | Secures audio transcripts and course data while allowing Claude cloud access. |
 | **2026-11-05** | **Data Schema: Structured JSON with Ruby Annotation Support** | Transcripts must capture speaker tags, language switches (English vs Chinese), Hanzi, Pinyin, and word timestamps. | Enables native HTML `<ruby>` / `<rt>` markup and clean CSS class toggling (`pinyin-visible` / `pinyin-hidden`). |
 | **2026-11-05** | **Audio Delivery Strategy** | Total audio files across 16 CDs are ~1.6 GB (~200 MP3 files). GitHub repos recommend remaining under 1 GB, with max 100MB per file. | Phase 1 embeds Foundation CD1 tracks for local/cloud prototyping; Phase 2 introduces external CDN streaming (e.g., GitHub Releases asset attachments or Cloudflare R2) so GitHub Pages remains lightweight and fast. |
@@ -60,20 +60,22 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 | **2026-11-04** | **Follow (auto-scroll) intent detection fixed (Claude)** | The old `scroll` listener also fired during our own smooth `scrollIntoView`, so "Viewing past lines" appeared constantly. Now only real user input (wheel, touch, PageUp/Down/arrow keys) pauses following. The "Back to live line" pill appears only when the live line is actually off-screen, and its arrow points toward it. Following resumes after 6 s idle. | The Follow chip shows a pulsing ring while following and a hollow ring while paused by the reader. |
 | **2026-11-04** | **Curriculum drawer (Claude)** | Persistent sticky sidebar on desktop (≥1024 px) with its own scroll; off-canvas drawer with scrim, `inert`, and Esc-to-close below that. Levels carry Hanzi labels (基础 / 进阶 / 词汇); discs collapse; CDs without transcripts show "Soon"; the active track shows a now-playing equaliser. | Closed by default on phones so the transcript is visible first. |
 | **2026-11-04** | **Fix: words blinking out at the end of the sweep (Claude)** | Found while checking Gemini's new `seg-005`. The sweep makes the text colour `transparent` and paints the fill through `background-clip: text`. When a word finished, the fill was removed instantly but the colour faded back from transparent, so each word briefly vanished (measured alpha 0.001 for Hanzi, 0.21 for English). Colour transitions are now off for tokens in the live line. | Text stays fully opaque on every frame after a word ends (verified per frame). The data from Gemini's §6.2 work passes the validator and renders with zero Pinyin fallbacks. |
-| **2026-11-04** | **Renamed to "Learning Chinese" (owner request)** | The app is for anyone, not one learner. Removed the personal name from the UI, docs, package name and storage keys. The repo slug becomes `learning-chinese`. | `localStorage` keys are now `lc_*` (old preferences reset once). The GitHub repo itself must be renamed in Settings → General; GitHub redirects the old URL. |
+| **2026-11-04** | **Renamed to "Learning Chinese" (owner request)** | The app is for anyone, not one learner. Removed the personal name from the UI, docs, package name and storage keys. The repo slug becomes `learning-chinese`. | `localStorage` keys are now `lc_*`; settings saved under the older `course_*` keys are carried over on first load. The GitHub repo itself must be renamed in Settings → General; GitHub redirects the old URL. |
 | **2026-11-04** | **Phone-app basics (Claude)** | Most listening happens on a phone. Added Media Session lock-screen controls (⏮/⏭ step through lines), resume at the last position, auto-advance to the next track, and an installable PWA with a service worker. Pages/data are network-first; lesson audio is cached in full and served with HTTP Range support so seeking works offline. | `src/platform.js`, `public/sw.js`, `public/manifest.webmanifest`. Saved state: `lc_resume`. |
 | **2026-11-04** | **Practice features (Claude)** | Settings panel (View & practice). Pinyin peek (tap/hover a character when Pinyin is off). Toggles for the English meaning and the Chinese version of English lines. **Your turn** pauses after `type: "prompt"` segments and hides the next line until reached or revealed. The loop button cycles Loop → **Repeat aloud** (pause ≈ line length, then replay) → off. **Saved lines** (star, `S`) listed in the course menu. | Saved state: `lc_saved`, `lc_gloss_en`, `lc_gloss_zh`, `lc_your_turn`. On phones, Tones and theme moved into the settings panel to keep the header uncluttered. |
 | **2026-11-04** | **Android app via Capacitor 8 (Claude)** | Wrapping the same web code keeps one codebase and bundles the lessons offline. `@capgo/capacitor-media-session` adds a foreground media service, so audio keeps playing with the screen off and shows lock-screen controls. App id `io.github.scoresby13.learningchinese`. | `android/`, `capacitor.config.json`, `.github/workflows/android.yml` (APK artifact on every push; main also updates the `android-latest` release). The APK is debug-signed until signing secrets are added (README → Android App). |
-| **2026-11-04** | **Browser tests in CI (Claude)** | Manual checks missed the blinking-word bug, so key behaviours are now automated: 14 Playwright tests on desktop and a phone profile, plus the transcript validator on every data file. | `tests/app.spec.js`, `playwright.config.js`, `.github/workflows/ci.yml`. Both workflows now use Node 22 (required by the Capacitor CLI). |
+| **2026-11-04** | **Browser tests in CI (Claude)** | Manual checks missed the blinking-word bug, so key behaviours are now automated: 15 Playwright tests on desktop and a phone profile, plus the transcript validator on every data file. Tests use a fixed five-line lesson (`tests/fixtures/sample_lesson.json`) so re-aligned transcripts don't break them. | `tests/app.spec.js`, `playwright.config.js`, `.github/workflows/ci.yml`. Both workflows now use Node 22 (required by the Capacitor CLI). |
 | **2026-11-05** | **Transcript Alignment & Quality Engine (Gemini)** | Addressed Claude's §6.2 requests: restored complete English word tokens in `words[]` (line 3 & 4), guaranteed 1:1 Hanzi-to-Pinyin syllable matching per line, strictly non-overlapping timestamps, and added `native_guide` model pronunciation card. | Sample CD1 Track 1 updated; created `scripts/validate_transcript.py` for CI and batch pipeline verification. |
+| **2026-11-05** | **True Audio Realignment & Narrator Role (Gemini)** | User identified transcript/audio mismatch on live site: the track starts with the publisher introduction & credits by a narrator (0.0s–18.5s) before Harold Goodman introduces himself (18.5s+). Realigned timestamps and text to the exact physical audio; added `announcer` role with glyph `序` (Intro/Prologue). | 100% audio-to-text live synchrony; passes `scripts/validate_transcript.py`. |
+| **2026-11-21** | **Merged main's track navigation into the phone-app work (Claude)** | `main` and this branch both added track auto-advance. Kept main's ⏮/⏭ track buttons, `[`/`]` keys and the 4-second "Next track" countdown, and kept this branch's rule that a looping line never auto-advances. Lock-screen ⏮/⏭ still step through lines. Phone dock buttons stay at least 44 px. | One `onTrackEnded` path. Older `course_*` settings move to `lc_*` on first load. |
 
 ---
 
 ## 4. Problems Encountered & Resolutions
 
 ### Problem 1: Parent Workspace Repo Collision
-- **Issue:** The parent workspace was already a cloned Git repository (another project). Initializing a new repository directly at the root would create conflicting Git roots or overwrite existing remotes.
-- **Resolution:** Created the project subfolder as an isolated Git repository with its own remote origin, and added it along with `learningchinese/` to the parent `.gitignore`.
+- **Issue:** `workspace` was already a cloned Git repository (another project). Initializing a new repository directly at the root would create conflicting Git roots or overwrite existing remotes.
+- **Resolution:** Created an isolated Git repository with its own remote origin, and added it along with `learningchinese/` to the parent `.gitignore`.
 
 ### Problem 2: Audio File Size Quotas on GitHub
 - **Issue:** The Chinese course contains 16 CDs:
@@ -169,3 +171,35 @@ The sync engine keeps the same behaviour and function names. Changes there: it a
   - Full text token coverage (ensuring no dropped phrases).
   - Proper schema tags for spoken-Mandarin vs inline Mandarin chips.
   - Runs in CI or local pipeline prior to publishing tracks.
+
+---
+
+## 8. Full Curriculum Transcription & GPU Pipeline (2026-11-06)
+
+### 8.1 Scope & Duration Assessment
+- Audited the entire Michel Thomas Mandarin Chinese audio library (201 tracks across 16 CDs, total duration: 19 hours, 54 minutes, 28 seconds):
+  - **Foundation (CD1–8):** 100 tracks, 09h 45m 29s
+  - **Advanced (CD1–4):** 47 tracks, 05h 00m 36s
+  - **Vocabulary (CD1–4):** 54 tracks, 05h 08m 23s
+  - **Grand Total:** 201 tracks, 19h 54m 28s
+
+### 8.2 GPU Acceleration Architecture
+- Connected directly via Tailscale to the dedicated remote NVIDIA GeForce RTX 3090 (24GB VRAM, CUDA 12.4).
+- Deployed `faster-whisper` (`large-v3`, float16 compute type) on CUDA.
+- Achieved ~15–25x real-time transcription throughput:
+  - 20 hours of original master speech transcribed in ~1.2 hours of GPU compute.
+  - Extracted word-level acoustic boundaries, timestamps, and confidence metrics for all 201 tracks.
+  - Implemented automatic fallback handling for silent frames to guarantee zero pipeline halts.
+
+### 8.3 Data Synchronization & Formatting
+- All 201 raw transcripts transformed to the verified schema in `public/data/<level>_cd<num>_track<num>.json`:
+  - Enforced 1:1 Hanzi character to Pinyin syllable count matching with tonal diacritics via `pypinyin`.
+  - Guaranteed monotonic non-overlapping segments and word timestamps (`seg[i].start >= seg[i-1].end`).
+  - Formatted spoken Mandarin lines (`zh`) with character tokens strictly omitting `text` property to trigger Claude's zero-shift character sweep.
+  - All 201 files validated through `scripts/validate_transcript.py` with **0 errors**.
+
+### 8.4 Audio Compression & Hosting (Option 1C)
+- Compressed all 201 master audio tracks to 64 kbps mono CBR MP3 using `ffmpeg`.
+- Stored directly in `public/audio/<level>-cd<num>/track-<num>.mp3`.
+- Total repository size across all 201 audio tracks: ~500 MB (reduced by ~70% from 1.65 GB).
+- Fully indexed and linked in `public/data/course_index.json`.

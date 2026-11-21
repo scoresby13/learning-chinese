@@ -119,4 +119,4 @@ Then add these repository secrets (Settings → Secrets and variables → Action
 ---
 
 ## 📄 License
-Private repository for educational and personal learning purposes.
+Educational and personal learning purposes.

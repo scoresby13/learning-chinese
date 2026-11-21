@@ -2,7 +2,7 @@
 
 > **Author:** Gemini 3.8 & Collaborative Team  
 > **Design Lead:** Claude  
-> **Repository:** `scoresby13/learning-chinese` (Private)  
+> **Repository:** `scoresby13/learning-chinese` (Public)  
 > **Date:** November 2026  
 > **Version:** 1.0.0  
 
@@ -225,7 +225,7 @@ flowchart TD
 
 ### Milestone Details:
 - **Phase 1 (Current):**
-  - Create private GitHub repo `scoresby13/learning-chinese`.
+  - GitHub repository `scoresby13/learning-chinese`.
   - Establish `DECISION_LOG.md` and `PLAN.md`.
   - Build working Vite webapp prototype with CD1 Track 1 sample data.
   - Push initial codebase to GitHub for Claude.

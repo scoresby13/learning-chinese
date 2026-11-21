@@ -1,7 +1,12 @@
 import { test, expect } from '@playwright/test';
 import fs from 'node:fs';
 
-const TRACK = JSON.parse(fs.readFileSync(new URL('../public/data/foundation_cd01_track01.json', import.meta.url)));
+// A fixed five-line lesson (with the short preview audio), so tests don't move when real transcripts are re-aligned.
+const TRACK = JSON.parse(fs.readFileSync(new URL('./fixtures/sample_lesson.json', import.meta.url)));
+
+test.beforeEach(async ({ page }) => {
+  await page.route('**/foundation_cd01_track01.json', (r) => r.fulfill({ contentType: 'application/json', body: JSON.stringify(TRACK) }));
+});
 
 /** Serve a modified copy of the sample lesson (test-only fixture). */
 async function withLesson(page, mutate) {
@@ -212,10 +217,29 @@ test('works offline after the first visit, including lesson audio', async ({ pag
 
   await context.setOffline(true);
   await page.reload();
-  await expect(page.locator('.speech-card')).toHaveCount(TRACK.segments.length);
+  // The service worker answers here, so this is the real lesson rather than the test fixture
+  await expect(page.locator('.speech-card').first()).toBeVisible();
+  await expect(page.locator('.error-msg')).toHaveCount(0);
   // Audio plays from the cache via Range requests, including after a seek
   await page.evaluate(() => { document.getElementById('nativeAudio').muted = true; });
   await playFrom(page, 20);
   await expect.poll(() => currentTime(page), { timeout: 5000 }).toBeGreaterThan(20.3);
   await context.setOffline(false);
+});
+
+test('track buttons move through the course, and the end of a track counts down to the next', async ({ page }) => {
+  await open(page);
+  await expect(page.locator('#prevTrackBtn')).toBeDisabled();
+  await page.evaluate(async () => {
+    const a = document.getElementById('nativeAudio');
+    a.currentTime = Math.max(0, a.duration - 0.3);
+    await a.play();
+  });
+  await expect(page.locator('#autoAdvanceBanner')).toBeVisible();
+  await page.click('#autoAdvanceCancelBtn');
+  await expect(page.locator('#autoAdvanceBanner')).toBeHidden();
+
+  await page.click('#nextTrackBtn');
+  await expect(page.locator('#playingBadge')).toHaveText(/Track 2\b/);
+  await expect(page.locator('#prevTrackBtn')).toBeEnabled();
 });
