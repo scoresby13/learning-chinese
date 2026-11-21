@@ -68,6 +68,7 @@ Transform the audio-guided Mandarin Chinese course (Michel Thomas Method, ~16 CD
 | **2026-11-05** | **Transcript Alignment & Quality Engine (Gemini)** | Addressed Claude's §6.2 requests: restored complete English word tokens in `words[]` (line 3 & 4), guaranteed 1:1 Hanzi-to-Pinyin syllable matching per line, strictly non-overlapping timestamps, and added `native_guide` model pronunciation card. | Sample CD1 Track 1 updated; created `scripts/validate_transcript.py` for CI and batch pipeline verification. |
 | **2026-11-05** | **True Audio Realignment & Narrator Role (Gemini)** | User identified transcript/audio mismatch on live site: the track starts with the publisher introduction & credits by a narrator (0.0s–18.5s) before Harold Goodman introduces himself (18.5s+). Realigned timestamps and text to the exact physical audio; added `announcer` role with glyph `序` (Intro/Prologue). | 100% audio-to-text live synchrony; passes `scripts/validate_transcript.py`. |
 | **2026-11-21** | **Merged main's track navigation into the phone-app work (Claude)** | `main` and this branch both added track auto-advance. Kept main's ⏮/⏭ track buttons, `[`/`]` keys and the 4-second "Next track" countdown, and kept this branch's rule that a looping line never auto-advances. Lock-screen ⏮/⏭ still step through lines. Phone dock buttons stay at least 44 px. | One `onTrackEnded` path. Older `course_*` settings move to `lc_*` on first load. |
+| **2026-11-21** | **Measured audio⇄text sync; fixed the English offset (Claude)** | Added `scripts/check_sync.py`, which scores every track against where speech actually is in its MP3 (calibrated with injected shifts). It found English text running a constant **0.36 s ahead** of the voice in 200 of 201 tracks, Chinese timings largely unaligned (median 24% of characters highlighted during silence), and Whisper hallucinations past the end of 3 tracks. `scripts/fix_sync.py` shifts English +0.36 s, removes the hallucinated tails and keeps segments in order; `process_cd.py` applies the same correction on regeneration. | English lag 0.36 s → 0.00 s; English words in silence 10% → 3%; tracks ok/warn/bad 0/185/16 → 81/111/9. Full table: `docs/sync-report.md`. Chinese timing still needs forced alignment (§9). |
 
 ---
 
@@ -203,3 +204,21 @@ The sync engine keeps the same behaviour and function names. Changes there: it a
 - Stored directly in `public/audio/<level>-cd<num>/track-<num>.mp3`.
 - Total repository size across all 201 audio tracks: ~500 MB (reduced by ~70% from 1.65 GB).
 - Fully indexed and linked in `public/data/course_index.json`.
+
+---
+
+## 9. Audio ⇄ Text Sync — Findings & Plan (Claude, 2026-11-21)
+
+### 9.1 How sync is measured
+`npm run check-sync` decodes every MP3, marks speech vs silence from loudness, and compares the transcript's word timings with it. It reports, per track, the overall lag, drift across the track, the share of words/characters highlighted during silence (separately for English and Chinese), and overruns. Calibration: injected shifts of −1.0, +0.6 and +1.5 s and a 1% stretch were all recovered. The English lag was stable (+0.30 to +0.40 s) across loudness thresholds. It takes about 5 minutes for the whole course on 4 CPU cores. See `docs/sync-report.md`.
+
+### 9.2 What is fixed (this change)
+- English timings +0.36 s, measured per track first; outliers are skipped (`foundation_cd01_track10`).
+- Hallucinated segments after the end of the audio removed (`foundation_cd01_track13`, `advanced_cd04_track02`, `vocabulary_cd04_track04`).
+- Segments kept in order; word timings are refitted proportionally when a segment is trimmed.
+
+### 9.3 What still needs fixing, and how
+1. **Chinese timing: forced alignment (recommended next step).** Chinese character timings are currently spread evenly across each segment, not taken from the audio, so a fixed offset can't fix them. Run a forced aligner over each track with the *known* text: torchaudio's `MMS_FA` (multilingual; English as-is, Chinese as toneless pinyin, one token per character) or WhisperX (wav2vec2). That gives per-word and per-character start/end times from the audio itself, plus a confidence score per line. On the RTX 3090 this is well under an hour for all 20 hours of audio; in GitHub Actions (CPU, one job per CD) it is a few hours. Needs `download.pytorch.org` (or `huggingface.co`) for the model weights.
+2. **Text accuracy (Gemini).** Whisper wrote many Chinese answers as English/romanized lines: ~15% of "English" lines look like pinyin ("Zhong.", "zhè ge rén"), so no Hanzi or tone marks show. Re-run Chinese recognition on those lines (e.g. Whisper `language="zh"` on just that clip) and use the aligner's per-line confidence to flag lines whose text doesn't match the audio. Also review 110 runs of 3+ identical consecutive lines in 60 tracks: some are genuine repetitions, some are Whisper loops.
+3. **Gate it.** Once aligned, make `check_sync.py` fail CI when a track is rated "bad", so new transcripts can't regress.
+

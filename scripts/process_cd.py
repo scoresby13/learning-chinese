@@ -6,6 +6,57 @@ import pypinyin
 
 HAN_RE = re.compile(r'[\u4e00-\u9fff]')
 
+# Whisper's English word timestamps lead the voice by ~0.36 s across this course
+# (measured with scripts/check_sync.py: 200 of 201 tracks within 0.25 s of that).
+# Keep in sync with EN_OFFSET in scripts/fix_sync.py.
+EN_OFFSET = 0.36
+
+
+
+def fit_words(seg):
+    """Keep word timings inside their segment without overlaps.
+    If the words no longer fit (the segment was trimmed), map them proportionally
+    into the segment, which preserves their order and relative spacing."""
+    words = seg.get('words') or []
+    if not words:
+        return
+    ws, we = words[0]['start'], max(w['end'] for w in words)
+    if ws < seg['start'] or we > seg['end']:
+        span = max(we - ws, 1e-6)
+        scale = (seg['end'] - seg['start']) / span
+        for w in words:
+            w['start'] = round(seg['start'] + (w['start'] - ws) * scale, 2)
+            w['end'] = round(seg['start'] + (w['end'] - ws) * scale, 2)
+    prev = seg['start']
+    for w in words:  # tidy rounding: monotonic, non-empty, inside the segment
+        w['start'] = round(min(max(w['start'], prev), seg['end']), 2)
+        w['end'] = round(min(max(w['end'], w['start'] + 0.01), seg['end']), 2)
+        prev = w['end']
+
+
+def apply_sync_corrections(segments, duration):
+    """Shift English timings by EN_OFFSET, drop segments that start after the audio ends
+    (Whisper hallucinations), clamp to the audio end and keep segments in order."""
+    out = []
+    for s in segments:
+        if s['start'] >= duration - 0.05:
+            continue
+        if s['language'] != 'zh':
+            s['start'] = round(s['start'] + EN_OFFSET, 2)
+            s['end'] = round(s['end'] + EN_OFFSET, 2)
+            for w in s['words']:
+                w['start'] = round(w['start'] + EN_OFFSET, 2)
+                w['end'] = round(w['end'] + EN_OFFSET, 2)
+        out.append(s)
+    prev_end = 0.0
+    for i, s in enumerate(out):
+        s['id'] = f"seg-{i + 1:03d}"
+        s['start'] = round(max(s['start'], prev_end), 2)
+        s['end'] = round(max(min(s['end'], duration), s['start'] + 0.1), 2)
+        fit_words(s)
+        prev_end = s['end']
+    return out
+
 def generate_pinyin_syllables(hanzi_text):
     """Generate exact 1:1 pinyin syllables for each Hanzi character, preserving punctuation."""
     syllables = []
@@ -167,6 +218,8 @@ def process_raw_file(raw_path: Path, output_path: Path):
             "words": processed_words
         }
         segments.append(seg_obj)
+
+    segments = apply_sync_corrections(segments, duration)
 
     out_doc = {
         "trackId": track_id,

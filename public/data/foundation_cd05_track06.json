@@ -9,8 +9,8 @@
   "segments": [
     {
       "id": "seg-001",
-      "start": 0.6,
-      "end": 6.5,
+      "start": 0.96,
+      "end": 6.86,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -21,100 +21,100 @@
       "words": [
         {
           "text": "Well,",
-          "start": 0.6,
-          "end": 1.16
+          "start": 0.96,
+          "end": 1.52
         },
         {
           "text": "we",
-          "start": 1.2,
-          "end": 1.32
+          "start": 1.56,
+          "end": 1.68
         },
         {
           "text": "learned",
-          "start": 1.32,
-          "end": 1.64
+          "start": 1.68,
+          "end": 2.0
         },
         {
           "text": "the",
-          "start": 1.64,
-          "end": 1.86
+          "start": 2.0,
+          "end": 2.22
         },
         {
           "text": "word",
-          "start": 1.86,
-          "end": 2.64
+          "start": 2.22,
+          "end": 3.0
         },
         {
           "text": "for",
-          "start": 2.64,
-          "end": 2.84
+          "start": 3.0,
+          "end": 3.2
         },
         {
           "text": "female,",
-          "start": 2.84,
-          "end": 3.3
+          "start": 3.2,
+          "end": 3.66
         },
         {
           "text": "so",
-          "start": 3.58,
-          "end": 3.82
+          "start": 3.94,
+          "end": 4.18
         },
         {
           "text": "I",
-          "start": 3.82,
-          "end": 4.1
+          "start": 4.18,
+          "end": 4.46
         },
         {
           "text": "suppose",
-          "start": 4.1,
-          "end": 4.52
+          "start": 4.46,
+          "end": 4.88
         },
         {
           "text": "we",
-          "start": 4.52,
-          "end": 4.92
+          "start": 4.88,
+          "end": 5.28
         },
         {
           "text": "will",
-          "start": 4.92,
-          "end": 5.26
+          "start": 5.28,
+          "end": 5.62
         },
         {
           "text": "need",
-          "start": 5.26,
-          "end": 5.44
+          "start": 5.62,
+          "end": 5.8
         },
         {
           "text": "to",
-          "start": 5.44,
-          "end": 5.6
+          "start": 5.8,
+          "end": 5.96
         },
         {
           "text": "learn",
-          "start": 5.6,
-          "end": 5.82
+          "start": 5.96,
+          "end": 6.18
         },
         {
           "text": "the",
-          "start": 5.82,
-          "end": 6.08
+          "start": 6.18,
+          "end": 6.44
         },
         {
           "text": "word",
-          "start": 6.08,
-          "end": 6.34
+          "start": 6.44,
+          "end": 6.7
         },
         {
           "text": "for",
-          "start": 6.34,
-          "end": 6.5
+          "start": 6.7,
+          "end": 6.86
         }
       ]
     },
     {
       "id": "seg-002",
-      "start": 6.5,
-      "end": 8.14,
+      "start": 6.86,
+      "end": 8.5,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -125,25 +125,25 @@
       "words": [
         {
           "text": "male,",
-          "start": 6.5,
-          "end": 6.82
+          "start": 6.86,
+          "end": 7.18
         },
         {
           "text": "which",
-          "start": 6.96,
-          "end": 7.24
+          "start": 7.32,
+          "end": 7.6
         },
         {
           "text": "is...",
-          "start": 7.24,
-          "end": 8.14
+          "start": 7.6,
+          "end": 8.5
         }
       ]
     },
     {
       "id": "seg-003",
-      "start": 8.14,
-      "end": 13.24,
+      "start": 8.5,
+      "end": 13.6,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -154,40 +154,40 @@
       "words": [
         {
           "text": "Nan.",
-          "start": 8.14,
-          "end": 8.38
+          "start": 8.5,
+          "end": 8.74
         },
         {
           "text": "Nan.",
-          "start": 9.76,
-          "end": 10.32
+          "start": 10.12,
+          "end": 10.68
         },
         {
           "text": "Blue",
-          "start": 11.08,
-          "end": 11.64
+          "start": 11.44,
+          "end": 12.0
         },
         {
           "text": "finger",
-          "start": 11.64,
-          "end": 12.02
+          "start": 12.0,
+          "end": 12.38
         },
         {
           "text": "up.",
-          "start": 12.02,
-          "end": 12.36
+          "start": 12.38,
+          "end": 12.72
         },
         {
           "text": "Nan.",
-          "start": 12.68,
-          "end": 13.24
+          "start": 13.04,
+          "end": 13.6
         }
       ]
     },
     {
       "id": "seg-004",
-      "start": 14.66,
-      "end": 21.02,
+      "start": 15.02,
+      "end": 21.38,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -198,90 +198,90 @@
       "words": [
         {
           "text": "Nan's",
-          "start": 14.66,
-          "end": 15.22
+          "start": 15.02,
+          "end": 15.58
         },
         {
           "text": "boyfriend",
-          "start": 15.22,
-          "end": 15.78
+          "start": 15.58,
+          "end": 16.14
         },
         {
           "text": "was",
-          "start": 15.78,
-          "end": 16.36
+          "start": 16.14,
+          "end": 16.72
         },
         {
           "text": "hot.",
-          "start": 16.36,
-          "end": 16.78
+          "start": 16.72,
+          "end": 17.14
         },
         {
           "text": "A",
-          "start": 16.98,
-          "end": 17.54
-        },
-        {
-          "text": "lot",
-          "start": 17.54,
-          "end": 17.84
-        },
-        {
-          "text": "of",
-          "start": 17.84,
+          "start": 17.34,
           "end": 17.9
         },
         {
-          "text": "good",
+          "text": "lot",
           "start": 17.9,
-          "end": 18.08
+          "end": 18.2
+        },
+        {
+          "text": "of",
+          "start": 18.2,
+          "end": 18.26
+        },
+        {
+          "text": "good",
+          "start": 18.26,
+          "end": 18.44
         },
         {
           "text": "that",
-          "start": 18.08,
-          "end": 18.24
+          "start": 18.44,
+          "end": 18.6
         },
         {
           "text": "did",
-          "start": 18.24,
-          "end": 18.5
+          "start": 18.6,
+          "end": 18.86
         },
         {
           "text": "me.",
-          "start": 18.5,
-          "end": 18.7
+          "start": 18.86,
+          "end": 19.06
         },
         {
           "text": "Does",
-          "start": 19.3,
-          "end": 19.86
+          "start": 19.66,
+          "end": 20.22
         },
         {
           "text": "she",
-          "start": 19.86,
-          "end": 20.16
+          "start": 20.22,
+          "end": 20.52
         },
         {
           "text": "have",
-          "start": 20.16,
-          "end": 20.44
+          "start": 20.52,
+          "end": 20.8
         },
         {
           "text": "a",
-          "start": 20.44,
-          "end": 20.6
+          "start": 20.8,
+          "end": 20.96
         },
         {
           "text": "boyfriend?",
-          "start": 20.6,
-          "end": 21.02
+          "start": 20.96,
+          "end": 21.38
         }
       ]
     },
     {
       "id": "seg-005",
-      "start": 31.74,
-      "end": 33.42,
+      "start": 32.1,
+      "end": 33.78,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -292,35 +292,35 @@
       "words": [
         {
           "text": "Does",
-          "start": 31.74,
-          "end": 32.34
+          "start": 32.1,
+          "end": 32.7
         },
         {
           "text": "she",
-          "start": 32.34,
-          "end": 32.94
+          "start": 32.7,
+          "end": 33.3
         },
         {
           "text": "have",
-          "start": 32.94,
-          "end": 33.06
+          "start": 33.3,
+          "end": 33.42
         },
         {
           "text": "a",
-          "start": 33.06,
-          "end": 33.18
+          "start": 33.42,
+          "end": 33.54
         },
         {
           "text": "boyfriend?",
-          "start": 33.18,
-          "end": 33.42
+          "start": 33.54,
+          "end": 33.78
         }
       ]
     },
     {
       "id": "seg-006",
-      "start": 34.2,
-      "end": 35.91,
+      "start": 34.56,
+      "end": 36.27,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -331,35 +331,35 @@
       "words": [
         {
           "text": "Does",
-          "start": 34.2,
-          "end": 34.44
+          "start": 34.56,
+          "end": 34.8
         },
         {
           "text": "she",
-          "start": 34.44,
-          "end": 34.94
+          "start": 34.8,
+          "end": 35.3
         },
         {
           "text": "have",
-          "start": 34.94,
-          "end": 35.34
+          "start": 35.3,
+          "end": 35.7
         },
         {
           "text": "a",
-          "start": 35.34,
-          "end": 35.86
+          "start": 35.7,
+          "end": 36.22
         },
         {
           "text": "boyfriend?",
-          "start": 35.86,
-          "end": 35.91
+          "start": 36.22,
+          "end": 36.27
         }
       ]
     },
     {
       "id": "seg-007",
-      "start": 35.91,
-      "end": 36.7,
+      "start": 36.27,
+      "end": 37.06,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -370,35 +370,35 @@
       "words": [
         {
           "text": "Does",
-          "start": 35.91,
-          "end": 36.26
+          "start": 36.27,
+          "end": 36.62
         },
         {
           "text": "she",
-          "start": 36.26,
-          "end": 36.31
+          "start": 36.62,
+          "end": 36.67
         },
         {
           "text": "have",
-          "start": 36.31,
-          "end": 36.36
+          "start": 36.67,
+          "end": 36.72
         },
         {
           "text": "a",
-          "start": 36.36,
-          "end": 36.41
+          "start": 36.72,
+          "end": 36.77
         },
         {
           "text": "boyfriend?",
-          "start": 36.41,
-          "end": 36.7
+          "start": 36.77,
+          "end": 37.06
         }
       ]
     },
     {
       "id": "seg-008",
-      "start": 36.7,
-      "end": 37.02,
+      "start": 37.06,
+      "end": 37.38,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -409,35 +409,35 @@
       "words": [
         {
           "text": "Does",
-          "start": 36.7,
-          "end": 36.75
+          "start": 37.06,
+          "end": 37.11
         },
         {
           "text": "she",
-          "start": 36.75,
-          "end": 36.8
+          "start": 37.11,
+          "end": 37.16
         },
         {
           "text": "have",
-          "start": 36.8,
-          "end": 36.85
+          "start": 37.16,
+          "end": 37.21
         },
         {
           "text": "a",
-          "start": 36.85,
-          "end": 36.9
+          "start": 37.21,
+          "end": 37.26
         },
         {
           "text": "boyfriend?",
-          "start": 36.9,
-          "end": 37.02
+          "start": 37.26,
+          "end": 37.38
         }
       ]
     },
     {
       "id": "seg-009",
-      "start": 39.04,
-      "end": 42.54,
+      "start": 39.4,
+      "end": 42.9,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -448,50 +448,50 @@
       "words": [
         {
           "text": "And",
-          "start": 39.04,
-          "end": 39.64
+          "start": 39.4,
+          "end": 40.0
         },
         {
           "text": "how",
-          "start": 39.64,
-          "end": 39.86
+          "start": 40.0,
+          "end": 40.22
         },
         {
           "text": "would",
-          "start": 39.86,
-          "end": 39.98
-        },
-        {
-          "text": "you",
-          "start": 39.98,
-          "end": 40.06
-        },
-        {
-          "text": "answer,",
-          "start": 40.06,
+          "start": 40.22,
           "end": 40.34
         },
         {
+          "text": "you",
+          "start": 40.34,
+          "end": 40.42
+        },
+        {
+          "text": "answer,",
+          "start": 40.42,
+          "end": 40.7
+        },
+        {
           "text": "yes,",
-          "start": 40.6,
-          "end": 41.78
+          "start": 40.96,
+          "end": 42.14
         },
         {
           "text": "she",
-          "start": 41.92,
-          "end": 42.24
+          "start": 42.28,
+          "end": 42.6
         },
         {
           "text": "has.",
-          "start": 42.24,
-          "end": 42.54
+          "start": 42.6,
+          "end": 42.9
         }
       ]
     },
     {
       "id": "seg-010",
-      "start": 44.78,
-      "end": 45.77,
+      "start": 45.14,
+      "end": 46.13,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -502,35 +502,35 @@
       "words": [
         {
           "text": "Does",
-          "start": 44.78,
-          "end": 45.38
+          "start": 45.14,
+          "end": 45.74
         },
         {
           "text": "she",
-          "start": 45.38,
-          "end": 45.43
+          "start": 45.74,
+          "end": 45.79
         },
         {
           "text": "have",
-          "start": 45.43,
-          "end": 45.48
+          "start": 45.79,
+          "end": 45.84
         },
         {
           "text": "a",
-          "start": 45.48,
-          "end": 45.72
+          "start": 45.84,
+          "end": 46.08
         },
         {
           "text": "boyfriend?",
-          "start": 45.72,
-          "end": 45.77
+          "start": 46.08,
+          "end": 46.13
         }
       ]
     },
     {
       "id": "seg-011",
-      "start": 47.28,
-      "end": 49.76,
+      "start": 47.64,
+      "end": 50.12,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -541,45 +541,45 @@
       "words": [
         {
           "text": "Is",
-          "start": 47.28,
-          "end": 47.88
+          "start": 47.64,
+          "end": 48.24
         },
         {
           "text": "your",
-          "start": 47.88,
-          "end": 48.48
+          "start": 48.24,
+          "end": 48.84
         },
         {
           "text": "male",
-          "start": 48.48,
-          "end": 48.7
-        },
-        {
-          "text": "teacher",
-          "start": 48.7,
+          "start": 48.84,
           "end": 49.06
         },
         {
-          "text": "at",
+          "text": "teacher",
           "start": 49.06,
-          "end": 49.3
+          "end": 49.42
+        },
+        {
+          "text": "at",
+          "start": 49.42,
+          "end": 49.66
         },
         {
           "text": "home",
-          "start": 49.3,
-          "end": 49.52
+          "start": 49.66,
+          "end": 49.88
         },
         {
           "text": "now?",
-          "start": 49.52,
-          "end": 49.76
+          "start": 49.88,
+          "end": 50.12
         }
       ]
     },
     {
       "id": "seg-012",
-      "start": 50.4,
-      "end": 51.0,
+      "start": 50.76,
+      "end": 51.36,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -590,15 +590,15 @@
       "words": [
         {
           "text": "Yes.",
-          "start": 50.4,
-          "end": 51.0
+          "start": 50.76,
+          "end": 51.36
         }
       ]
     },
     {
       "id": "seg-013",
-      "start": 51.02,
-      "end": 55.5,
+      "start": 51.38,
+      "end": 55.86,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -609,38 +609,38 @@
       "words": [
         {
           "text": "Your",
-          "start": 51.02,
-          "end": 52.08
+          "start": 51.38,
+          "end": 52.44
         },
         {
           "text": "male",
-          "start": 52.08,
-          "end": 52.4
+          "start": 52.44,
+          "end": 52.76
         },
         {
           "text": "teacher",
-          "start": 52.4,
-          "end": 52.96
+          "start": 52.76,
+          "end": 53.32
         },
         {
           "text": "now",
-          "start": 52.96,
-          "end": 54.3
+          "start": 53.32,
+          "end": 54.66
         },
         {
           "text": "is",
-          "start": 54.3,
-          "end": 54.94
+          "start": 54.66,
+          "end": 55.3
         },
         {
           "text": "at",
-          "start": 54.94,
-          "end": 55.14
+          "start": 55.3,
+          "end": 55.5
         },
         {
           "text": "home.",
-          "start": 55.14,
-          "end": 55.5
+          "start": 55.5,
+          "end": 55.86
         }
       ]
     },
@@ -720,8 +720,8 @@
     },
     {
       "id": "seg-015",
-      "start": 70.34,
-      "end": 72.52,
+      "start": 70.7,
+      "end": 72.88,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -732,38 +732,38 @@
       "words": [
         {
           "text": "Is",
-          "start": 70.34,
-          "end": 71.0
+          "start": 70.7,
+          "end": 71.36
         },
         {
           "text": "your",
-          "start": 71.0,
-          "end": 71.22
+          "start": 71.36,
+          "end": 71.58
         },
         {
           "text": "male",
-          "start": 71.22,
-          "end": 71.5
+          "start": 71.58,
+          "end": 71.86
         },
         {
           "text": "teacher",
-          "start": 71.5,
-          "end": 71.88
+          "start": 71.86,
+          "end": 72.24
         },
         {
           "text": "at",
-          "start": 71.88,
-          "end": 72.1
+          "start": 72.24,
+          "end": 72.46
         },
         {
           "text": "home",
-          "start": 72.1,
-          "end": 72.3
+          "start": 72.46,
+          "end": 72.66
         },
         {
           "text": "now?",
-          "start": 72.3,
-          "end": 72.52
+          "start": 72.66,
+          "end": 72.88
         }
       ]
     },
@@ -843,8 +843,8 @@
     },
     {
       "id": "seg-017",
-      "start": 81.2,
-      "end": 107.14,
+      "start": 81.56,
+      "end": 107.5,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -855,340 +855,340 @@
       "words": [
         {
           "text": "So",
-          "start": 81.2,
-          "end": 81.72
+          "start": 81.56,
+          "end": 82.08
         },
         {
           "text": "when",
-          "start": 81.72,
-          "end": 81.9
+          "start": 82.08,
+          "end": 82.26
         },
         {
           "text": "we",
-          "start": 81.9,
-          "end": 82.0
+          "start": 82.26,
+          "end": 82.36
         },
         {
           "text": "have",
-          "start": 82.0,
-          "end": 82.14
+          "start": 82.36,
+          "end": 82.5
         },
         {
           "text": "a",
-          "start": 82.14,
-          "end": 82.22
+          "start": 82.5,
+          "end": 82.58
         },
         {
           "text": "sentence",
-          "start": 82.22,
-          "end": 82.54
+          "start": 82.58,
+          "end": 82.9
         },
         {
           "text": "like,",
-          "start": 82.54,
-          "end": 82.82
+          "start": 82.9,
+          "end": 83.18
         },
         {
           "text": "is",
-          "start": 82.88,
-          "end": 83.02
+          "start": 83.24,
+          "end": 83.38
         },
         {
           "text": "your",
-          "start": 83.02,
-          "end": 83.12
+          "start": 83.38,
+          "end": 83.48
         },
         {
           "text": "male",
-          "start": 83.12,
-          "end": 83.32
+          "start": 83.48,
+          "end": 83.68
         },
         {
           "text": "teacher",
-          "start": 83.32,
-          "end": 83.62
+          "start": 83.68,
+          "end": 83.98
         },
         {
           "text": "at",
-          "start": 83.62,
-          "end": 83.82
+          "start": 83.98,
+          "end": 84.18
         },
         {
           "text": "home",
-          "start": 83.82,
-          "end": 84.04
+          "start": 84.18,
+          "end": 84.4
         },
         {
           "text": "now,",
-          "start": 84.04,
-          "end": 84.28
+          "start": 84.4,
+          "end": 84.64
         },
         {
           "text": "or",
-          "start": 84.42,
-          "end": 84.74
+          "start": 84.78,
+          "end": 85.1
         },
         {
           "text": "will",
-          "start": 84.74,
-          "end": 85.48
+          "start": 85.1,
+          "end": 85.84
         },
         {
           "text": "you",
-          "start": 85.48,
-          "end": 85.62
+          "start": 85.84,
+          "end": 85.98
         },
         {
           "text": "see",
-          "start": 85.62,
-          "end": 85.88
+          "start": 85.98,
+          "end": 86.24
         },
         {
           "text": "me",
-          "start": 85.88,
-          "end": 86.14
+          "start": 86.24,
+          "end": 86.5
         },
         {
           "text": "tomorrow,",
-          "start": 86.14,
-          "end": 87.14
+          "start": 86.5,
+          "end": 87.5
         },
         {
           "text": "as",
-          "start": 87.42,
-          "end": 89.02
+          "start": 87.78,
+          "end": 89.38
         },
         {
           "text": "soon",
-          "start": 89.02,
-          "end": 89.26
+          "start": 89.38,
+          "end": 89.62
         },
         {
           "text": "as",
-          "start": 89.26,
-          "end": 89.42
+          "start": 89.62,
+          "end": 89.78
         },
         {
           "text": "we",
-          "start": 89.42,
-          "end": 89.56
+          "start": 89.78,
+          "end": 89.92
         },
         {
           "text": "hear",
-          "start": 89.56,
-          "end": 89.8
+          "start": 89.92,
+          "end": 90.16
         },
         {
           "text": "this",
-          "start": 89.8,
-          "end": 89.98
+          "start": 90.16,
+          "end": 90.34
         },
         {
           "text": "time",
-          "start": 89.98,
-          "end": 90.28
+          "start": 90.34,
+          "end": 90.64
         },
         {
           "text": "word,",
-          "start": 90.28,
-          "end": 90.7
+          "start": 90.64,
+          "end": 91.06
         },
         {
           "text": "now,",
-          "start": 90.84,
-          "end": 91.6
+          "start": 91.2,
+          "end": 91.96
         },
         {
           "text": "today,",
-          "start": 91.7,
-          "end": 92.32
+          "start": 92.06,
+          "end": 92.68
         },
         {
           "text": "tomorrow,",
-          "start": 92.66,
-          "end": 93.1
+          "start": 93.02,
+          "end": 93.46
         },
         {
           "text": "a",
-          "start": 93.4,
-          "end": 94.42
+          "start": 93.76,
+          "end": 94.78
         },
         {
           "text": "little",
-          "start": 94.42,
-          "end": 94.7
+          "start": 94.78,
+          "end": 95.06
         },
         {
           "text": "light",
-          "start": 94.7,
-          "end": 94.98
+          "start": 95.06,
+          "end": 95.34
         },
         {
           "text": "bulb",
-          "start": 94.98,
-          "end": 95.28
+          "start": 95.34,
+          "end": 95.64
         },
         {
           "text": "may",
-          "start": 95.28,
-          "end": 95.58
+          "start": 95.64,
+          "end": 95.94
         },
         {
           "text": "go",
-          "start": 95.58,
-          "end": 95.76
+          "start": 95.94,
+          "end": 96.12
         },
         {
           "text": "off,",
-          "start": 95.76,
-          "end": 96.16
+          "start": 96.12,
+          "end": 96.52
         },
         {
           "text": "and",
-          "start": 96.26,
-          "end": 97.7
+          "start": 96.62,
+          "end": 98.06
         },
         {
           "text": "we",
-          "start": 97.7,
-          "end": 97.88
+          "start": 98.06,
+          "end": 98.24
         },
         {
           "text": "immediately",
-          "start": 97.88,
-          "end": 98.34
+          "start": 98.24,
+          "end": 98.7
         },
         {
           "text": "know",
-          "start": 98.34,
-          "end": 99.58
+          "start": 98.7,
+          "end": 99.94
         },
         {
           "text": "that",
-          "start": 99.58,
-          "end": 99.82
+          "start": 99.94,
+          "end": 100.18
         },
         {
           "text": "that",
-          "start": 99.82,
-          "end": 100.06
+          "start": 100.18,
+          "end": 100.42
         },
         {
           "text": "word",
-          "start": 100.06,
-          "end": 100.44
+          "start": 100.42,
+          "end": 100.8
         },
         {
           "text": "is",
-          "start": 100.44,
-          "end": 100.7
+          "start": 100.8,
+          "end": 101.06
         },
         {
           "text": "going",
-          "start": 100.7,
-          "end": 100.76
+          "start": 101.06,
+          "end": 101.12
         },
         {
           "text": "to",
-          "start": 100.76,
-          "end": 100.9
-        },
-        {
-          "text": "have",
-          "start": 100.9,
-          "end": 101.08
-        },
-        {
-          "text": "to",
-          "start": 101.08,
+          "start": 101.12,
           "end": 101.26
         },
         {
-          "text": "be",
+          "text": "have",
           "start": 101.26,
-          "end": 101.36
-        },
-        {
-          "text": "brought",
-          "start": 101.36,
-          "end": 101.58
-        },
-        {
-          "text": "up",
-          "start": 101.58,
-          "end": 101.84
+          "end": 101.44
         },
         {
           "text": "to",
-          "start": 101.84,
-          "end": 102.3
+          "start": 101.44,
+          "end": 101.62
+        },
+        {
+          "text": "be",
+          "start": 101.62,
+          "end": 101.72
+        },
+        {
+          "text": "brought",
+          "start": 101.72,
+          "end": 101.94
+        },
+        {
+          "text": "up",
+          "start": 101.94,
+          "end": 102.2
+        },
+        {
+          "text": "to",
+          "start": 102.2,
+          "end": 102.66
         },
         {
           "text": "the",
-          "start": 102.3,
-          "end": 102.42
+          "start": 102.66,
+          "end": 102.78
         },
         {
           "text": "front",
-          "start": 102.42,
-          "end": 103.6
+          "start": 102.78,
+          "end": 103.96
         },
         {
           "text": "of",
-          "start": 103.6,
-          "end": 103.82
+          "start": 103.96,
+          "end": 104.18
         },
         {
           "text": "the",
-          "start": 103.82,
-          "end": 103.9
+          "start": 104.18,
+          "end": 104.26
         },
         {
           "text": "sentence",
-          "start": 103.9,
-          "end": 104.24
+          "start": 104.26,
+          "end": 104.6
         },
         {
           "text": "right",
-          "start": 104.24,
-          "end": 104.7
+          "start": 104.6,
+          "end": 105.06
         },
         {
           "text": "after",
-          "start": 104.7,
-          "end": 105.12
+          "start": 105.06,
+          "end": 105.48
         },
         {
           "text": "the",
-          "start": 105.12,
-          "end": 105.34
+          "start": 105.48,
+          "end": 105.7
         },
         {
           "text": "who,",
-          "start": 105.34,
-          "end": 105.78
+          "start": 105.7,
+          "end": 106.14
         },
         {
           "text": "whoever",
-          "start": 105.92,
-          "end": 106.52
+          "start": 106.28,
+          "end": 106.88
         },
         {
           "text": "does",
-          "start": 106.52,
-          "end": 106.8
+          "start": 106.88,
+          "end": 107.16
         },
         {
           "text": "what.",
-          "start": 106.8,
-          "end": 107.14
+          "start": 107.16,
+          "end": 107.5
         }
       ]
     },
     {
       "id": "seg-018",
-      "start": 107.14,
-      "end": 109.82,
+      "start": 107.5,
+      "end": 110.18,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1199,44 +1199,44 @@
       "words": [
         {
           "text": "He",
-          "start": 107.14,
-          "end": 108.22
+          "start": 107.5,
+          "end": 108.58
         },
         {
           "text": "says",
-          "start": 108.22,
-          "end": 108.6
+          "start": 108.58,
+          "end": 108.96
         },
         {
           "text": "that",
-          "start": 108.6,
-          "end": 108.86
+          "start": 108.96,
+          "end": 109.22
         },
         {
           "text": "he",
-          "start": 108.86,
-          "end": 109.04
+          "start": 109.22,
+          "end": 109.4
         },
         {
           "text": "is",
-          "start": 109.04,
-          "end": 109.26
+          "start": 109.4,
+          "end": 109.62
         },
         {
           "text": "at",
-          "start": 109.26,
-          "end": 109.46
+          "start": 109.62,
+          "end": 109.82
         },
         {
           "text": "home.",
-          "start": 109.46,
-          "end": 109.82
+          "start": 109.82,
+          "end": 110.18
         }
       ]
     },
     {
       "id": "seg-019",
-      "start": 109.9,
+      "start": 110.18,
       "end": 117.2,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -1280,8 +1280,8 @@
     },
     {
       "id": "seg-020",
-      "start": 117.2,
-      "end": 121.06,
+      "start": 117.56,
+      "end": 121.42,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1292,28 +1292,28 @@
       "words": [
         {
           "text": "He",
-          "start": 117.2,
-          "end": 117.25
+          "start": 117.56,
+          "end": 117.61
         },
         {
           "text": "says",
-          "start": 117.25,
-          "end": 118.82
-        },
-        {
-          "text": "he",
-          "start": 118.82,
+          "start": 117.61,
           "end": 119.18
         },
         {
-          "text": "at",
+          "text": "he",
           "start": 119.18,
-          "end": 120.66
+          "end": 119.54
+        },
+        {
+          "text": "at",
+          "start": 119.54,
+          "end": 121.02
         },
         {
           "text": "home.",
-          "start": 120.66,
-          "end": 121.06
+          "start": 121.02,
+          "end": 121.42
         }
       ]
     },
@@ -1363,8 +1363,8 @@
     },
     {
       "id": "seg-022",
-      "start": 129.0,
-      "end": 133.14,
+      "start": 129.36,
+      "end": 133.5,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1375,44 +1375,44 @@
       "words": [
         {
           "text": "How",
-          "start": 129.0,
-          "end": 130.52
+          "start": 129.36,
+          "end": 130.88
         },
         {
           "text": "would",
-          "start": 130.52,
-          "end": 130.78
+          "start": 130.88,
+          "end": 131.14
         },
         {
           "text": "you",
-          "start": 130.78,
-          "end": 130.83
+          "start": 131.14,
+          "end": 131.19
         },
         {
           "text": "say",
-          "start": 130.83,
-          "end": 131.12
+          "start": 131.19,
+          "end": 131.48
         },
         {
           "text": "say",
-          "start": 131.12,
-          "end": 131.54
+          "start": 131.48,
+          "end": 131.9
         },
         {
           "text": "or",
-          "start": 131.54,
-          "end": 132.24
+          "start": 131.9,
+          "end": 132.6
         },
         {
           "text": "speak?",
-          "start": 132.24,
-          "end": 133.14
+          "start": 132.6,
+          "end": 133.5
         }
       ]
     },
     {
       "id": "seg-023",
-      "start": 133.22,
+      "start": 133.5,
       "end": 135.0,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -1432,8 +1432,8 @@
     },
     {
       "id": "seg-024",
-      "start": 135.0,
-      "end": 135.88,
+      "start": 135.36,
+      "end": 136.24,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1444,14 +1444,14 @@
       "words": [
         {
           "text": "Yes.",
-          "start": 135.0,
-          "end": 135.88
+          "start": 135.36,
+          "end": 136.24
         }
       ]
     },
     {
       "id": "seg-025",
-      "start": 135.88,
+      "start": 136.24,
       "end": 136.7,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -1464,15 +1464,15 @@
         {
           "hanzi": "说",
           "pinyin": "shuō",
-          "start": 135.88,
-          "end": 136.29
+          "start": 136.24,
+          "end": 136.7
         }
       ]
     },
     {
       "id": "seg-026",
-      "start": 137.88,
-      "end": 143.84,
+      "start": 138.24,
+      "end": 144.2,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1483,64 +1483,64 @@
       "words": [
         {
           "text": "So",
-          "start": 137.88,
-          "end": 138.0
+          "start": 138.24,
+          "end": 138.36
         },
         {
           "text": "we",
-          "start": 138.0,
-          "end": 138.14
+          "start": 138.36,
+          "end": 138.5
         },
         {
           "text": "know",
-          "start": 138.14,
-          "end": 138.38
+          "start": 138.5,
+          "end": 138.74
         },
         {
           "text": "that",
-          "start": 138.38,
-          "end": 138.66
+          "start": 138.74,
+          "end": 139.02
         },
         {
           "text": "George",
-          "start": 138.66,
-          "end": 139.04
+          "start": 139.02,
+          "end": 139.4
         },
         {
           "text": "Bernard",
-          "start": 139.04,
-          "end": 139.78
+          "start": 139.4,
+          "end": 140.14
         },
         {
           "text": "说",
-          "start": 139.78,
-          "end": 140.96
+          "start": 140.14,
+          "end": 141.32
         },
         {
           "text": "was",
-          "start": 140.96,
-          "end": 142.48
+          "start": 141.32,
+          "end": 142.84
         },
         {
           "text": "a",
-          "start": 142.48,
-          "end": 143.02
+          "start": 142.84,
+          "end": 143.38
         },
         {
           "text": "great",
-          "start": 143.02,
-          "end": 143.32
+          "start": 143.38,
+          "end": 143.68
         },
         {
           "text": "speaker.",
-          "start": 143.32,
-          "end": 143.84
+          "start": 143.68,
+          "end": 144.2
         }
       ]
     },
     {
       "id": "seg-027",
-      "start": 143.92,
+      "start": 144.2,
       "end": 145.54,
       "speaker": "student_male",
       "speakerName": "Student (Male)",
@@ -1560,8 +1560,8 @@
     },
     {
       "id": "seg-028",
-      "start": 147.0,
-      "end": 152.34,
+      "start": 147.36,
+      "end": 152.7,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1572,75 +1572,75 @@
       "words": [
         {
           "text": "He",
-          "start": 147.0,
-          "end": 147.68
-        },
-        {
-          "text": "says",
-          "start": 147.68,
+          "start": 147.36,
           "end": 148.04
         },
         {
-          "text": "that",
+          "text": "says",
           "start": 148.04,
-          "end": 148.38
+          "end": 148.4
+        },
+        {
+          "text": "that",
+          "start": 148.4,
+          "end": 148.74
         },
         {
           "text": "he",
-          "start": 148.38,
-          "end": 148.72
+          "start": 148.74,
+          "end": 149.08
         },
         {
           "text": "is",
-          "start": 148.72,
-          "end": 149.0
+          "start": 149.08,
+          "end": 149.36
         },
         {
           "text": "at",
-          "start": 149.0,
-          "end": 149.26
+          "start": 149.36,
+          "end": 149.62
         },
         {
           "text": "home,",
-          "start": 149.26,
-          "end": 149.84
+          "start": 149.62,
+          "end": 150.2
         },
         {
           "text": "so",
-          "start": 150.0,
-          "end": 150.92
+          "start": 150.36,
+          "end": 151.28
         },
         {
           "text": "we",
-          "start": 150.92,
-          "end": 151.18
+          "start": 151.28,
+          "end": 151.54
         },
         {
           "text": "leave",
-          "start": 151.18,
-          "end": 151.44
+          "start": 151.54,
+          "end": 151.8
         },
         {
           "text": "out",
-          "start": 151.44,
-          "end": 151.64
+          "start": 151.8,
+          "end": 152.0
         },
         {
           "text": "the",
-          "start": 151.64,
-          "end": 151.82
+          "start": 152.0,
+          "end": 152.18
         },
         {
           "text": "that.",
-          "start": 151.82,
-          "end": 152.34
+          "start": 152.18,
+          "end": 152.7
         }
       ]
     },
     {
       "id": "seg-029",
-      "start": 152.5,
-      "end": 154.24,
+      "start": 152.86,
+      "end": 154.6,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1651,33 +1651,33 @@
       "words": [
         {
           "text": "He",
-          "start": 152.5,
-          "end": 152.84
+          "start": 152.86,
+          "end": 153.2
         },
         {
           "text": "says",
-          "start": 152.84,
-          "end": 153.22
+          "start": 153.2,
+          "end": 153.58
         },
         {
           "text": "he",
-          "start": 153.22,
-          "end": 153.62
+          "start": 153.58,
+          "end": 153.98
         },
         {
           "text": "is",
-          "start": 153.62,
-          "end": 153.8
+          "start": 153.98,
+          "end": 154.16
         },
         {
           "text": "at",
-          "start": 153.8,
-          "end": 153.94
+          "start": 154.16,
+          "end": 154.3
         },
         {
           "text": "home.",
-          "start": 153.94,
-          "end": 154.24
+          "start": 154.3,
+          "end": 154.6
         }
       ]
     },
@@ -1727,8 +1727,8 @@
     },
     {
       "id": "seg-031",
-      "start": 158.88,
-      "end": 162.2,
+      "start": 159.24,
+      "end": 162.56,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1739,60 +1739,60 @@
       "words": [
         {
           "text": "Would",
-          "start": 158.88,
-          "end": 159.14
+          "start": 159.24,
+          "end": 159.5
         },
         {
           "text": "this",
-          "start": 159.14,
-          "end": 159.44
+          "start": 159.5,
+          "end": 159.8
         },
         {
           "text": "male",
-          "start": 159.44,
-          "end": 159.86
-        },
-        {
-          "text": "student",
-          "start": 159.86,
+          "start": 159.8,
           "end": 160.22
         },
         {
-          "text": "like",
+          "text": "student",
           "start": 160.22,
-          "end": 160.72
+          "end": 160.58
+        },
+        {
+          "text": "like",
+          "start": 160.58,
+          "end": 161.08
         },
         {
           "text": "to",
-          "start": 160.72,
-          "end": 161.1
+          "start": 161.08,
+          "end": 161.46
         },
         {
           "text": "read",
-          "start": 161.1,
-          "end": 161.36
+          "start": 161.46,
+          "end": 161.72
         },
         {
           "text": "this",
-          "start": 161.36,
-          "end": 161.6
+          "start": 161.72,
+          "end": 161.96
         },
         {
           "text": "book",
-          "start": 161.6,
-          "end": 161.88
+          "start": 161.96,
+          "end": 162.24
         },
         {
           "text": "now?",
-          "start": 161.88,
-          "end": 162.2
+          "start": 162.24,
+          "end": 162.56
         }
       ]
     },
     {
       "id": "seg-032",
-      "start": 162.2,
-      "end": 162.38,
+      "start": 162.56,
+      "end": 162.66,
       "speaker": "student_male",
       "speakerName": "Student (Male)",
       "type": "instruction",
@@ -1804,21 +1804,21 @@
         {
           "hanzi": "想",
           "pinyin": "xiǎng",
-          "start": 162.2,
-          "end": 162.26
+          "start": 162.56,
+          "end": 162.61
         },
         {
           "hanzi": "要",
           "pinyin": "yào",
-          "start": 162.26,
-          "end": 162.32
+          "start": 162.61,
+          "end": 162.66
         }
       ]
     },
     {
       "id": "seg-033",
-      "start": 163.8,
-      "end": 166.74,
+      "start": 164.16,
+      "end": 167.1,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1829,35 +1829,35 @@
       "words": [
         {
           "text": "Would",
-          "start": 163.8,
-          "end": 164.6
+          "start": 164.16,
+          "end": 164.96
         },
         {
           "text": "this",
-          "start": 164.6,
-          "end": 165.08
+          "start": 164.96,
+          "end": 165.44
         },
         {
           "text": "male",
-          "start": 165.08,
-          "end": 165.42
-        },
-        {
-          "text": "student",
-          "start": 165.42,
+          "start": 165.44,
           "end": 165.78
         },
         {
-          "text": "now?",
+          "text": "student",
           "start": 165.78,
-          "end": 166.74
+          "end": 166.14
+        },
+        {
+          "text": "now?",
+          "start": 166.14,
+          "end": 167.1
         }
       ]
     },
     {
       "id": "seg-034",
-      "start": 166.74,
-      "end": 167.9,
+      "start": 167.1,
+      "end": 168.26,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1868,30 +1868,30 @@
       "words": [
         {
           "text": "So",
-          "start": 166.74,
-          "end": 166.86
+          "start": 167.1,
+          "end": 167.22
         },
         {
           "text": "we're",
-          "start": 166.86,
-          "end": 167.16
+          "start": 167.22,
+          "end": 167.52
         },
         {
           "text": "going",
-          "start": 167.16,
-          "end": 167.5
+          "start": 167.52,
+          "end": 167.86
         },
         {
           "text": "to...",
-          "start": 167.5,
-          "end": 167.9
+          "start": 167.86,
+          "end": 168.26
         }
       ]
     },
     {
       "id": "seg-035",
-      "start": 169.2,
-      "end": 172.18,
+      "start": 169.56,
+      "end": 172.54,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1902,50 +1902,50 @@
       "words": [
         {
           "text": "This",
-          "start": 169.2,
-          "end": 169.46
+          "start": 169.56,
+          "end": 169.82
         },
         {
           "text": "male",
-          "start": 169.46,
-          "end": 170.06
+          "start": 169.82,
+          "end": 170.42
         },
         {
           "text": "student",
-          "start": 170.06,
-          "end": 170.3
+          "start": 170.42,
+          "end": 170.66
         },
         {
           "text": "now",
-          "start": 170.3,
-          "end": 170.7
+          "start": 170.66,
+          "end": 171.06
         },
         {
           "text": "would",
-          "start": 170.7,
-          "end": 171.48
+          "start": 171.06,
+          "end": 171.84
         },
         {
           "text": "like",
-          "start": 171.48,
-          "end": 171.68
+          "start": 171.84,
+          "end": 172.04
         },
         {
           "text": "to",
-          "start": 171.68,
-          "end": 171.88
+          "start": 172.04,
+          "end": 172.24
         },
         {
           "text": "read.",
-          "start": 171.88,
-          "end": 172.18
+          "start": 172.24,
+          "end": 172.54
         }
       ]
     },
     {
       "id": "seg-036",
-      "start": 172.26,
-      "end": 173.06,
+      "start": 172.62,
+      "end": 173.42,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1956,15 +1956,15 @@
       "words": [
         {
           "text": "Yes.",
-          "start": 172.26,
-          "end": 173.06
+          "start": 172.62,
+          "end": 173.42
         }
       ]
     },
     {
       "id": "seg-037",
-      "start": 173.12,
-      "end": 174.0,
+      "start": 173.48,
+      "end": 174.36,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -1975,24 +1975,24 @@
       "words": [
         {
           "text": "This",
-          "start": 173.12,
-          "end": 173.42
+          "start": 173.48,
+          "end": 173.78
         },
         {
           "text": "male",
-          "start": 173.42,
-          "end": 173.64
+          "start": 173.78,
+          "end": 174.0
         },
         {
           "text": "student.",
-          "start": 173.64,
-          "end": 174.0
+          "start": 174.0,
+          "end": 174.36
         }
       ]
     },
     {
       "id": "seg-038",
-      "start": 174.28,
+      "start": 174.36,
       "end": 189.78,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -2005,69 +2005,69 @@
         {
           "hanzi": "这",
           "pinyin": "zhè",
-          "start": 174.28,
-          "end": 175.1
+          "start": 174.36,
+          "end": 175.22
         },
         {
           "hanzi": "的",
           "pinyin": "de",
-          "start": 175.91,
-          "end": 176.73
+          "start": 176.07,
+          "end": 176.93
         },
         {
           "hanzi": "男",
           "pinyin": "nán",
-          "start": 177.54,
-          "end": 178.36
+          "start": 177.78,
+          "end": 178.65
         },
         {
           "hanzi": "谁",
           "pinyin": "shuí",
-          "start": 179.17,
-          "end": 179.99
+          "start": 179.5,
+          "end": 180.36
         },
         {
           "hanzi": "生",
           "pinyin": "shēng",
-          "start": 180.81,
-          "end": 181.62
+          "start": 181.22,
+          "end": 182.07
         },
         {
           "hanzi": "现",
           "pinyin": "xiàn",
-          "start": 182.44,
-          "end": 183.25
+          "start": 182.93,
+          "end": 183.78
         },
         {
           "hanzi": "在",
           "pinyin": "zài",
-          "start": 183.25,
-          "end": 184.07
+          "start": 183.78,
+          "end": 184.64
         },
         {
           "hanzi": "小",
           "pinyin": "xiǎo",
-          "start": 184.89,
-          "end": 185.7
+          "start": 185.5,
+          "end": 186.36
         },
         {
           "hanzi": "看",
           "pinyin": "kàn",
-          "start": 186.52,
-          "end": 187.33
+          "start": 187.22,
+          "end": 188.07
         },
         {
           "hanzi": "看",
           "pinyin": "kàn",
-          "start": 188.15,
-          "end": 188.96
+          "start": 188.93,
+          "end": 189.78
         }
       ]
     },
     {
       "id": "seg-039",
-      "start": 192.0,
-      "end": 194.76,
+      "start": 192.36,
+      "end": 195.12,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2078,60 +2078,60 @@
       "words": [
         {
           "text": "How",
-          "start": 192.0,
-          "end": 192.64
+          "start": 192.36,
+          "end": 193.0
         },
         {
           "text": "do",
-          "start": 192.64,
-          "end": 192.69
+          "start": 193.0,
+          "end": 193.05
         },
         {
           "text": "you",
-          "start": 192.69,
-          "end": 192.74
+          "start": 193.05,
+          "end": 193.1
         },
         {
           "text": "say,",
-          "start": 192.74,
-          "end": 192.79
+          "start": 193.1,
+          "end": 193.15
         },
         {
           "text": "this",
-          "start": 192.79,
-          "end": 192.84
+          "start": 193.15,
+          "end": 193.2
         },
         {
           "text": "book,",
-          "start": 192.84,
-          "end": 192.89
+          "start": 193.2,
+          "end": 193.25
         },
         {
           "text": "zh,",
-          "start": 192.89,
-          "end": 192.94
+          "start": 193.25,
+          "end": 193.3
         },
         {
           "text": "dh,",
-          "start": 192.94,
-          "end": 193.44
+          "start": 193.3,
+          "end": 193.8
         },
         {
           "text": "shu,",
-          "start": 193.44,
-          "end": 194.46
+          "start": 193.8,
+          "end": 194.82
         },
         {
           "text": "ma?",
-          "start": 194.46,
-          "end": 194.76
+          "start": 194.82,
+          "end": 195.12
         }
       ]
     },
     {
       "id": "seg-040",
-      "start": 195.04,
-      "end": 209.22,
+      "start": 195.4,
+      "end": 209.58,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2142,105 +2142,105 @@
       "words": [
         {
           "text": "How",
-          "start": 195.04,
-          "end": 195.68
+          "start": 195.4,
+          "end": 196.04
         },
         {
           "text": "do",
-          "start": 195.68,
-          "end": 195.98
+          "start": 196.04,
+          "end": 196.34
         },
         {
           "text": "you",
-          "start": 195.98,
-          "end": 196.12
+          "start": 196.34,
+          "end": 196.48
         },
         {
           "text": "say,",
-          "start": 196.12,
-          "end": 196.4
+          "start": 196.48,
+          "end": 196.76
         },
         {
           "text": "this",
-          "start": 196.5,
-          "end": 197.06
+          "start": 196.86,
+          "end": 197.42
         },
         {
           "text": "book,",
-          "start": 197.06,
-          "end": 197.62
+          "start": 197.42,
+          "end": 197.98
         },
         {
           "text": "zh,",
-          "start": 197.82,
-          "end": 199.34
+          "start": 198.18,
+          "end": 199.7
         },
         {
           "text": "dh,",
-          "start": 199.34,
-          "end": 200.2
+          "start": 199.7,
+          "end": 200.56
         },
         {
           "text": "shu,",
-          "start": 200.2,
-          "end": 201.02
+          "start": 200.56,
+          "end": 201.38
         },
         {
           "text": "zh,",
-          "start": 201.18,
-          "end": 203.1
+          "start": 201.54,
+          "end": 203.46
         },
         {
           "text": "guh,",
-          "start": 203.16,
-          "end": 203.98
+          "start": 203.52,
+          "end": 204.34
         },
         {
           "text": "it's",
-          "start": 204.02,
-          "end": 205.16
+          "start": 204.38,
+          "end": 205.52
         },
         {
           "text": "guh,",
-          "start": 205.16,
-          "end": 205.7
+          "start": 205.52,
+          "end": 206.06
         },
         {
           "text": "then",
-          "start": 205.7,
-          "end": 206.78
+          "start": 206.06,
+          "end": 207.14
         },
         {
           "text": "you",
-          "start": 206.78,
-          "end": 206.92
+          "start": 207.14,
+          "end": 207.28
         },
         {
           "text": "say,",
-          "start": 206.92,
-          "end": 207.06
+          "start": 207.28,
+          "end": 207.42
         },
         {
           "text": "this",
-          "start": 207.14,
-          "end": 207.34
+          "start": 207.5,
+          "end": 207.7
         },
         {
           "text": "book,",
-          "start": 207.34,
-          "end": 207.94
+          "start": 207.7,
+          "end": 208.3
         },
         {
           "text": "zh,",
-          "start": 208.2,
-          "end": 209.22
+          "start": 208.56,
+          "end": 209.58
         }
       ]
     },
     {
       "id": "seg-041",
-      "start": 209.78,
-      "end": 211.18,
+      "start": 210.14,
+      "end": 211.54,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2251,20 +2251,20 @@
       "words": [
         {
           "text": "guh,",
-          "start": 209.78,
-          "end": 210.38
+          "start": 210.14,
+          "end": 210.74
         },
         {
           "text": "shu.",
-          "start": 210.38,
-          "end": 211.18
+          "start": 210.74,
+          "end": 211.54
         }
       ]
     },
     {
       "id": "seg-042",
-      "start": 212.0,
-      "end": 214.0,
+      "start": 212.36,
+      "end": 214.36,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2275,35 +2275,35 @@
       "words": [
         {
           "text": "How",
-          "start": 212.0,
-          "end": 212.64
+          "start": 212.36,
+          "end": 213.0
         },
         {
           "text": "do",
-          "start": 212.64,
-          "end": 212.96
+          "start": 213.0,
+          "end": 213.32
         },
         {
           "text": "you",
-          "start": 212.96,
-          "end": 213.08
+          "start": 213.32,
+          "end": 213.44
         },
         {
           "text": "say,",
-          "start": 213.08,
-          "end": 213.38
+          "start": 213.44,
+          "end": 213.74
         },
         {
           "text": "student?",
-          "start": 213.5,
-          "end": 214.0
+          "start": 213.86,
+          "end": 214.36
         }
       ]
     },
     {
       "id": "seg-043",
-      "start": 214.0,
-      "end": 222.4,
+      "start": 214.36,
+      "end": 222.76,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2314,55 +2314,55 @@
       "words": [
         {
           "text": "It",
-          "start": 214.0,
-          "end": 214.48
+          "start": 214.36,
+          "end": 214.84
         },
         {
           "text": "ends",
-          "start": 214.48,
-          "end": 215.22
+          "start": 214.84,
+          "end": 215.58
         },
         {
           "text": "in",
-          "start": 215.22,
-          "end": 215.38
+          "start": 215.58,
+          "end": 215.74
         },
         {
           "text": "shung,",
-          "start": 215.38,
-          "end": 215.82
+          "start": 215.74,
+          "end": 216.18
         },
         {
           "text": "shung,",
-          "start": 216.04,
-          "end": 217.42
+          "start": 216.4,
+          "end": 217.78
         },
         {
           "text": "sh,",
-          "start": 217.62,
-          "end": 218.82
+          "start": 217.98,
+          "end": 219.18
         },
         {
           "text": "sh,",
-          "start": 219.26,
-          "end": 221.04
+          "start": 219.62,
+          "end": 221.4
         },
         {
           "text": "sh,",
-          "start": 221.48,
-          "end": 221.53
+          "start": 221.84,
+          "end": 221.89
         },
         {
           "text": "shung.",
-          "start": 221.53,
-          "end": 222.4
+          "start": 221.89,
+          "end": 222.76
         }
       ]
     },
     {
       "id": "seg-044",
-      "start": 224.18,
-      "end": 238.04,
+      "start": 224.54,
+      "end": 238.4,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2373,80 +2373,80 @@
       "words": [
         {
           "text": "Pull",
-          "start": 224.18,
-          "end": 224.23
+          "start": 224.54,
+          "end": 224.59
         },
         {
           "text": "the",
-          "start": 224.23,
-          "end": 224.28
+          "start": 224.59,
+          "end": 224.64
         },
         {
           "text": "finger",
-          "start": 224.28,
-          "end": 224.54
+          "start": 224.64,
+          "end": 224.9
         },
         {
           "text": "up,",
-          "start": 224.54,
-          "end": 224.86
+          "start": 224.9,
+          "end": 225.22
         },
         {
           "text": "shue,",
-          "start": 225.02,
-          "end": 225.72
+          "start": 225.38,
+          "end": 226.08
         },
         {
           "text": "shue,",
-          "start": 225.94,
-          "end": 227.34
+          "start": 226.3,
+          "end": 227.7
         },
         {
           "text": "shue,",
-          "start": 227.34,
-          "end": 228.2
+          "start": 227.7,
+          "end": 228.56
         },
         {
           "text": "shung,",
-          "start": 228.26,
-          "end": 229.68
+          "start": 228.62,
+          "end": 230.04
         },
         {
           "text": "shue,",
-          "start": 229.84,
-          "end": 231.18
+          "start": 230.2,
+          "end": 231.54
         },
         {
           "text": "shung,",
-          "start": 231.56,
-          "end": 232.28
+          "start": 231.92,
+          "end": 232.64
         },
         {
           "text": "shue,",
-          "start": 232.28,
-          "end": 233.54
+          "start": 232.64,
+          "end": 233.9
         },
         {
           "text": "shue,",
-          "start": 234.36,
-          "end": 235.16
+          "start": 234.72,
+          "end": 235.52
         },
         {
           "text": "shue,",
-          "start": 236.02,
-          "end": 237.06
+          "start": 236.38,
+          "end": 237.42
         },
         {
           "text": "shung.",
-          "start": 237.2,
-          "end": 238.04
+          "start": 237.56,
+          "end": 238.4
         }
       ]
     },
     {
       "id": "seg-045",
-      "start": 239.22,
-      "end": 243.2,
+      "start": 239.58,
+      "end": 243.56,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2457,35 +2457,35 @@
       "words": [
         {
           "text": "This",
-          "start": 239.22,
-          "end": 240.32
+          "start": 239.58,
+          "end": 240.68
         },
         {
           "text": "male",
-          "start": 240.32,
-          "end": 240.64
+          "start": 240.68,
+          "end": 241.0
         },
         {
           "text": "student,",
-          "start": 240.64,
-          "end": 240.92
+          "start": 241.0,
+          "end": 241.28
         },
         {
           "text": "zh,",
-          "start": 241.28,
-          "end": 242.16
+          "start": 241.64,
+          "end": 242.52
         },
         {
           "text": "guh.",
-          "start": 242.22,
-          "end": 243.2
+          "start": 242.58,
+          "end": 243.56
         }
       ]
     },
     {
       "id": "seg-046",
-      "start": 243.2,
-      "end": 246.9,
+      "start": 243.56,
+      "end": 247.26,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2496,35 +2496,35 @@
       "words": [
         {
           "text": "zh,",
-          "start": 243.2,
-          "end": 243.25
+          "start": 243.56,
+          "end": 243.61
         },
         {
           "text": "guh,",
-          "start": 243.25,
-          "end": 243.68
-        },
-        {
-          "text": "nan,",
-          "start": 243.68,
+          "start": 243.61,
           "end": 244.04
         },
         {
+          "text": "nan,",
+          "start": 244.04,
+          "end": 244.4
+        },
+        {
           "text": "shue,",
-          "start": 244.38,
-          "end": 246.0
+          "start": 244.74,
+          "end": 246.36
         },
         {
           "text": "shung.",
-          "start": 246.0,
-          "end": 246.9
+          "start": 246.36,
+          "end": 247.26
         }
       ]
     },
     {
       "id": "seg-047",
-      "start": 247.64,
-      "end": 251.88,
+      "start": 248.0,
+      "end": 252.24,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2535,60 +2535,60 @@
       "words": [
         {
           "text": "Would",
-          "start": 247.64,
-          "end": 248.42
+          "start": 248.0,
+          "end": 248.78
         },
         {
           "text": "this",
-          "start": 248.42,
-          "end": 248.64
+          "start": 248.78,
+          "end": 249.0
         },
         {
           "text": "male",
-          "start": 248.64,
-          "end": 248.92
+          "start": 249.0,
+          "end": 249.28
         },
         {
           "text": "student",
-          "start": 248.92,
-          "end": 249.32
+          "start": 249.28,
+          "end": 249.68
         },
         {
           "text": "like",
-          "start": 249.32,
-          "end": 250.42
+          "start": 249.68,
+          "end": 250.78
         },
         {
           "text": "to",
-          "start": 250.42,
-          "end": 250.76
-        },
-        {
-          "text": "read",
-          "start": 250.76,
+          "start": 250.78,
           "end": 251.12
         },
         {
-          "text": "this",
+          "text": "read",
           "start": 251.12,
-          "end": 251.36
+          "end": 251.48
+        },
+        {
+          "text": "this",
+          "start": 251.48,
+          "end": 251.72
         },
         {
           "text": "book",
-          "start": 251.36,
-          "end": 251.6
+          "start": 251.72,
+          "end": 251.96
         },
         {
           "text": "now?",
-          "start": 251.6,
-          "end": 251.88
+          "start": 251.96,
+          "end": 252.24
         }
       ]
     },
     {
       "id": "seg-048",
-      "start": 252.38,
-      "end": 262.92,
+      "start": 252.74,
+      "end": 263.28,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2599,75 +2599,75 @@
       "words": [
         {
           "text": "zh,",
-          "start": 252.38,
-          "end": 252.66
+          "start": 252.74,
+          "end": 253.02
         },
         {
           "text": "guh,",
-          "start": 252.76,
-          "end": 253.36
+          "start": 253.12,
+          "end": 253.72
         },
         {
           "text": "nan,",
-          "start": 253.48,
-          "end": 254.34
+          "start": 253.84,
+          "end": 254.7
         },
         {
           "text": "shue,",
-          "start": 254.56,
-          "end": 255.2
+          "start": 254.92,
+          "end": 255.56
         },
         {
           "text": "shung,",
-          "start": 255.32,
-          "end": 255.96
+          "start": 255.68,
+          "end": 256.32
         },
         {
           "text": "xian,",
-          "start": 255.96,
-          "end": 257.4
+          "start": 256.32,
+          "end": 257.76
         },
         {
           "text": "zai,",
-          "start": 257.4,
-          "end": 257.98
+          "start": 257.76,
+          "end": 258.34
         },
         {
           "text": "xiang,",
-          "start": 258.06,
-          "end": 259.3
+          "start": 258.42,
+          "end": 259.66
         },
         {
           "text": "kan,",
-          "start": 259.3,
-          "end": 259.62
+          "start": 259.66,
+          "end": 259.98
         },
         {
           "text": "zh,",
-          "start": 260.34,
-          "end": 260.86
+          "start": 260.7,
+          "end": 261.22
         },
         {
           "text": "guh,",
-          "start": 260.96,
-          "end": 261.48
+          "start": 261.32,
+          "end": 261.84
         },
         {
           "text": "shu,",
-          "start": 261.52,
-          "end": 262.5
+          "start": 261.88,
+          "end": 262.86
         },
         {
           "text": "ma?",
-          "start": 262.5,
-          "end": 262.92
+          "start": 262.86,
+          "end": 263.28
         }
       ]
     },
     {
       "id": "seg-049",
-      "start": 263.72,
-      "end": 271.14,
+      "start": 264.08,
+      "end": 271.5,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2678,65 +2678,65 @@
       "words": [
         {
           "text": "So",
-          "start": 263.72,
-          "end": 264.5
-        },
-        {
-          "text": "just",
-          "start": 264.5,
-          "end": 264.68
-        },
-        {
-          "text": "to",
-          "start": 264.68,
+          "start": 264.08,
           "end": 264.86
         },
         {
-          "text": "mention,",
+          "text": "just",
           "start": 264.86,
-          "end": 265.24
+          "end": 265.04
         },
         {
           "text": "to",
-          "start": 265.36,
-          "end": 266.06
+          "start": 265.04,
+          "end": 265.22
+        },
+        {
+          "text": "mention,",
+          "start": 265.22,
+          "end": 265.6
+        },
+        {
+          "text": "to",
+          "start": 265.72,
+          "end": 266.42
         },
         {
           "text": "read",
-          "start": 266.06,
-          "end": 266.62
+          "start": 266.42,
+          "end": 266.98
         },
         {
           "text": "is",
-          "start": 266.62,
-          "end": 268.08
+          "start": 266.98,
+          "end": 268.44
         },
         {
           "text": "look",
-          "start": 268.08,
-          "end": 268.84
+          "start": 268.44,
+          "end": 269.2
         },
         {
           "text": "book,",
-          "start": 268.84,
-          "end": 269.18
+          "start": 269.2,
+          "end": 269.54
         },
         {
           "text": "which",
-          "start": 269.42,
-          "end": 270.74
+          "start": 269.78,
+          "end": 271.1
         },
         {
           "text": "is...",
-          "start": 270.74,
-          "end": 271.14
+          "start": 271.1,
+          "end": 271.5
         }
       ]
     },
     {
       "id": "seg-050",
-      "start": 271.14,
-      "end": 272.93,
+      "start": 271.5,
+      "end": 273.29,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2747,45 +2747,45 @@
       "words": [
         {
           "text": "guh,",
-          "start": 271.14,
-          "end": 272.06
+          "start": 271.5,
+          "end": 272.42
         },
         {
           "text": "shu,",
-          "start": 272.06,
-          "end": 272.68
+          "start": 272.42,
+          "end": 273.04
         },
         {
           "text": "shu,",
-          "start": 272.68,
-          "end": 272.73
+          "start": 273.04,
+          "end": 273.09
         },
         {
           "text": "shu,",
-          "start": 272.73,
-          "end": 272.78
+          "start": 273.09,
+          "end": 273.14
         },
         {
           "text": "shu,",
-          "start": 272.78,
-          "end": 272.83
+          "start": 273.14,
+          "end": 273.19
         },
         {
           "text": "shu,",
-          "start": 272.83,
-          "end": 272.88
+          "start": 273.19,
+          "end": 273.24
         },
         {
           "text": "ma?",
-          "start": 272.88,
-          "end": 272.93
+          "start": 273.24,
+          "end": 273.29
         }
       ]
     },
     {
       "id": "seg-051",
-      "start": 272.93,
-      "end": 274.16,
+      "start": 273.29,
+      "end": 274.52,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2796,20 +2796,20 @@
       "words": [
         {
           "text": "Kan,",
-          "start": 272.93,
-          "end": 273.2
+          "start": 273.29,
+          "end": 273.56
         },
         {
           "text": "shu.",
-          "start": 273.44,
-          "end": 274.16
+          "start": 273.8,
+          "end": 274.52
         }
       ]
     },
     {
       "id": "seg-052",
-      "start": 275.02,
-      "end": 281.8,
+      "start": 275.38,
+      "end": 282.16,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2820,105 +2820,105 @@
       "words": [
         {
           "text": "And",
-          "start": 275.02,
-          "end": 275.62
+          "start": 275.38,
+          "end": 275.98
         },
         {
           "text": "if",
-          "start": 275.62,
-          "end": 275.82
+          "start": 275.98,
+          "end": 276.18
         },
         {
           "text": "you",
-          "start": 275.82,
-          "end": 275.92
-        },
-        {
-          "text": "want",
-          "start": 275.92,
-          "end": 276.14
-        },
-        {
-          "text": "to",
-          "start": 276.14,
+          "start": 276.18,
           "end": 276.28
         },
         {
-          "text": "say,",
+          "text": "want",
           "start": 276.28,
-          "end": 276.58
+          "end": 276.5
         },
         {
           "text": "to",
-          "start": 276.68,
-          "end": 277.28
-        },
-        {
-          "text": "read",
-          "start": 277.28,
-          "end": 277.56
-        },
-        {
-          "text": "this",
-          "start": 277.56,
-          "end": 277.86
-        },
-        {
-          "text": "book",
-          "start": 277.86,
-          "end": 278.16
-        },
-        {
-          "text": "or",
-          "start": 278.16,
-          "end": 278.4
-        },
-        {
-          "text": "that",
-          "start": 278.4,
-          "end": 278.6
-        },
-        {
-          "text": "book,",
-          "start": 278.6,
-          "end": 278.92
-        },
-        {
-          "text": "you",
-          "start": 279.32,
-          "end": 279.84
-        },
-        {
-          "text": "would",
-          "start": 279.84,
-          "end": 280.1
+          "start": 276.5,
+          "end": 276.64
         },
         {
           "text": "say,",
-          "start": 280.1,
-          "end": 280.46
+          "start": 276.64,
+          "end": 276.94
         },
         {
-          "text": "how",
-          "start": 280.62,
-          "end": 281.56
+          "text": "to",
+          "start": 277.04,
+          "end": 277.64
         },
         {
-          "text": "would",
-          "start": 281.56,
-          "end": 281.7
+          "text": "read",
+          "start": 277.64,
+          "end": 277.92
+        },
+        {
+          "text": "this",
+          "start": 277.92,
+          "end": 278.22
+        },
+        {
+          "text": "book",
+          "start": 278.22,
+          "end": 278.52
+        },
+        {
+          "text": "or",
+          "start": 278.52,
+          "end": 278.76
+        },
+        {
+          "text": "that",
+          "start": 278.76,
+          "end": 278.96
+        },
+        {
+          "text": "book,",
+          "start": 278.96,
+          "end": 279.28
         },
         {
           "text": "you",
-          "start": 281.7,
-          "end": 281.8
+          "start": 279.68,
+          "end": 280.2
+        },
+        {
+          "text": "would",
+          "start": 280.2,
+          "end": 280.46
+        },
+        {
+          "text": "say,",
+          "start": 280.46,
+          "end": 280.82
+        },
+        {
+          "text": "how",
+          "start": 280.98,
+          "end": 281.92
+        },
+        {
+          "text": "would",
+          "start": 281.92,
+          "end": 282.06
+        },
+        {
+          "text": "you",
+          "start": 282.06,
+          "end": 282.16
         }
       ]
     },
     {
       "id": "seg-053",
-      "start": 281.8,
-      "end": 284.42,
+      "start": 282.16,
+      "end": 284.78,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2929,40 +2929,40 @@
       "words": [
         {
           "text": "say,",
-          "start": 281.8,
-          "end": 282.02
+          "start": 282.16,
+          "end": 282.38
         },
         {
           "text": "to",
-          "start": 282.16,
-          "end": 282.62
+          "start": 282.52,
+          "end": 282.98
         },
         {
           "text": "look",
-          "start": 282.62,
-          "end": 283.24
+          "start": 282.98,
+          "end": 283.6
         },
         {
           "text": "at",
-          "start": 283.24,
-          "end": 283.68
+          "start": 283.6,
+          "end": 284.04
         },
         {
           "text": "this",
-          "start": 283.68,
-          "end": 284.16
+          "start": 284.04,
+          "end": 284.52
         },
         {
           "text": "book?",
-          "start": 284.16,
-          "end": 284.42
+          "start": 284.52,
+          "end": 284.78
         }
       ]
     },
     {
       "id": "seg-054",
-      "start": 286.98,
-      "end": 290.14,
+      "start": 287.34,
+      "end": 290.5,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -2973,30 +2973,30 @@
       "words": [
         {
           "text": "Kan,",
-          "start": 286.98,
-          "end": 287.58
+          "start": 287.34,
+          "end": 287.94
         },
         {
           "text": "zh,",
-          "start": 287.58,
-          "end": 288.18
+          "start": 287.94,
+          "end": 288.54
         },
         {
           "text": "guh,",
-          "start": 288.24,
-          "end": 289.24
+          "start": 288.6,
+          "end": 289.6
         },
         {
           "text": "shu.",
-          "start": 289.24,
-          "end": 290.14
+          "start": 289.6,
+          "end": 290.5
         }
       ]
     },
     {
       "id": "seg-055",
-      "start": 290.64,
-      "end": 294.36,
+      "start": 291.0,
+      "end": 294.72,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3007,70 +3007,70 @@
       "words": [
         {
           "text": "Well,",
-          "start": 290.64,
-          "end": 291.24
+          "start": 291.0,
+          "end": 291.6
         },
         {
           "text": "how",
-          "start": 291.28,
-          "end": 291.34
+          "start": 291.64,
+          "end": 291.7
         },
         {
           "text": "would",
-          "start": 291.34,
-          "end": 291.46
+          "start": 291.7,
+          "end": 291.82
         },
         {
           "text": "you",
-          "start": 291.46,
-          "end": 291.56
+          "start": 291.82,
+          "end": 291.92
         },
         {
           "text": "say",
-          "start": 291.56,
-          "end": 291.76
+          "start": 291.92,
+          "end": 292.12
         },
         {
           "text": "that",
-          "start": 291.76,
-          "end": 292.54
+          "start": 292.12,
+          "end": 292.9
         },
         {
           "text": "the",
-          "start": 292.54,
-          "end": 292.76
+          "start": 292.9,
+          "end": 293.12
         },
         {
           "text": "person",
-          "start": 292.76,
-          "end": 293.16
+          "start": 293.12,
+          "end": 293.52
         },
         {
           "text": "is",
-          "start": 293.16,
-          "end": 293.38
+          "start": 293.52,
+          "end": 293.74
         },
         {
           "text": "reading",
-          "start": 293.38,
-          "end": 293.66
+          "start": 293.74,
+          "end": 294.02
         },
         {
           "text": "that",
-          "start": 293.66,
-          "end": 293.98
+          "start": 294.02,
+          "end": 294.34
         },
         {
           "text": "book?",
-          "start": 293.98,
-          "end": 294.36
+          "start": 294.34,
+          "end": 294.72
         }
       ]
     },
     {
       "id": "seg-056",
-      "start": 297.56,
-      "end": 300.28,
+      "start": 297.92,
+      "end": 300.64,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3081,30 +3081,30 @@
       "words": [
         {
           "text": "Kan,",
-          "start": 297.56,
-          "end": 298.16
+          "start": 297.92,
+          "end": 298.52
         },
         {
           "text": "na,",
-          "start": 298.16,
-          "end": 298.76
+          "start": 298.52,
+          "end": 299.12
         },
         {
           "text": "guh,",
-          "start": 298.94,
-          "end": 299.62
+          "start": 299.3,
+          "end": 299.98
         },
         {
           "text": "shu.",
-          "start": 299.64,
-          "end": 300.28
+          "start": 300.0,
+          "end": 300.64
         }
       ]
     },
     {
       "id": "seg-057",
-      "start": 301.68,
-      "end": 302.88,
+      "start": 302.04,
+      "end": 303.24,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3115,30 +3115,30 @@
       "words": [
         {
           "text": "Kan,",
-          "start": 301.68,
-          "end": 302.28
+          "start": 302.04,
+          "end": 302.64
         },
         {
           "text": "na,",
-          "start": 302.56,
-          "end": 302.78
+          "start": 302.92,
+          "end": 303.14
         },
         {
           "text": "guh,",
-          "start": 302.78,
-          "end": 302.83
+          "start": 303.14,
+          "end": 303.19
         },
         {
           "text": "shu.",
-          "start": 302.83,
-          "end": 302.88
+          "start": 303.19,
+          "end": 303.24
         }
       ]
     },
     {
       "id": "seg-058",
-      "start": 302.88,
-      "end": 304.42,
+      "start": 303.24,
+      "end": 304.78,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3149,25 +3149,25 @@
       "words": [
         {
           "text": "Na,",
-          "start": 302.88,
-          "end": 303.14
+          "start": 303.24,
+          "end": 303.5
         },
         {
           "text": "guh,",
-          "start": 303.36,
-          "end": 303.9
+          "start": 303.72,
+          "end": 304.26
         },
         {
           "text": "shu.",
-          "start": 303.94,
-          "end": 304.42
+          "start": 304.3,
+          "end": 304.78
         }
       ]
     },
     {
       "id": "seg-059",
-      "start": 305.54,
-      "end": 310.22,
+      "start": 305.9,
+      "end": 310.58,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3178,65 +3178,65 @@
       "words": [
         {
           "text": "He",
-          "start": 305.54,
-          "end": 306.22
+          "start": 305.9,
+          "end": 306.58
         },
         {
           "text": "says",
-          "start": 306.22,
-          "end": 306.56
+          "start": 306.58,
+          "end": 306.92
         },
         {
           "text": "that",
-          "start": 306.56,
-          "end": 306.82
+          "start": 306.92,
+          "end": 307.18
         },
         {
           "text": "you",
-          "start": 306.82,
-          "end": 307.04
-        },
-        {
-          "text": "are",
-          "start": 307.04,
+          "start": 307.18,
           "end": 307.4
         },
         {
-          "text": "reading,",
+          "text": "are",
           "start": 307.4,
-          "end": 308.16
+          "end": 307.76
+        },
+        {
+          "text": "reading,",
+          "start": 307.76,
+          "end": 308.52
         },
         {
           "text": "are",
-          "start": 308.34,
-          "end": 309.08
+          "start": 308.7,
+          "end": 309.44
         },
         {
           "text": "reading",
-          "start": 309.08,
-          "end": 309.48
+          "start": 309.44,
+          "end": 309.84
         },
         {
           "text": "at",
-          "start": 309.48,
-          "end": 309.74
+          "start": 309.84,
+          "end": 310.1
         },
         {
           "text": "this",
-          "start": 309.74,
-          "end": 309.92
+          "start": 310.1,
+          "end": 310.28
         },
         {
           "text": "moment.",
-          "start": 309.92,
-          "end": 310.22
+          "start": 310.28,
+          "end": 310.58
         }
       ]
     },
     {
       "id": "seg-060",
-      "start": 310.32,
-      "end": 312.56,
+      "start": 310.68,
+      "end": 312.92,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3247,55 +3247,55 @@
       "words": [
         {
           "text": "He",
-          "start": 310.32,
-          "end": 310.48
+          "start": 310.68,
+          "end": 310.84
         },
         {
           "text": "says",
-          "start": 310.48,
-          "end": 310.72
+          "start": 310.84,
+          "end": 311.08
         },
         {
           "text": "that",
-          "start": 310.72,
-          "end": 310.92
+          "start": 311.08,
+          "end": 311.28
         },
         {
           "text": "you",
-          "start": 310.92,
-          "end": 311.04
+          "start": 311.28,
+          "end": 311.4
         },
         {
           "text": "are",
-          "start": 311.04,
-          "end": 311.18
-        },
-        {
-          "text": "reading",
-          "start": 311.18,
+          "start": 311.4,
           "end": 311.54
         },
         {
-          "text": "the",
+          "text": "reading",
           "start": 311.54,
-          "end": 311.76
+          "end": 311.9
+        },
+        {
+          "text": "the",
+          "start": 311.9,
+          "end": 312.12
         },
         {
           "text": "book",
-          "start": 311.76,
-          "end": 312.1
+          "start": 312.12,
+          "end": 312.46
         },
         {
           "text": "now.",
-          "start": 312.1,
-          "end": 312.56
+          "start": 312.46,
+          "end": 312.92
         }
       ]
     },
     {
       "id": "seg-061",
-      "start": 315.88,
-      "end": 324.78,
+      "start": 316.24,
+      "end": 325.14,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3306,70 +3306,70 @@
       "words": [
         {
           "text": "Ta,",
-          "start": 315.88,
-          "end": 316.56
+          "start": 316.24,
+          "end": 316.92
         },
         {
           "text": "ta,",
-          "start": 316.56,
-          "end": 317.24
+          "start": 316.92,
+          "end": 317.6
         },
         {
           "text": "shua,",
-          "start": 317.44,
-          "end": 318.58
+          "start": 317.8,
+          "end": 318.94
         },
         {
           "text": "says,",
-          "start": 318.78,
-          "end": 320.08
+          "start": 319.14,
+          "end": 320.44
         },
         {
           "text": "he",
-          "start": 320.46,
-          "end": 320.82
+          "start": 320.82,
+          "end": 321.18
         },
         {
           "text": "says",
-          "start": 320.82,
-          "end": 321.14
+          "start": 321.18,
+          "end": 321.5
         },
         {
           "text": "you",
-          "start": 321.14,
-          "end": 321.44
-        },
-        {
-          "text": "now,",
-          "start": 321.44,
+          "start": 321.5,
           "end": 321.8
         },
         {
+          "text": "now,",
+          "start": 321.8,
+          "end": 322.16
+        },
+        {
           "text": "with",
-          "start": 322.04,
-          "end": 323.14
+          "start": 322.4,
+          "end": 323.5
         },
         {
           "text": "extra",
-          "start": 323.14,
-          "end": 323.54
+          "start": 323.5,
+          "end": 323.9
         },
         {
           "text": "emphasis,",
-          "start": 323.54,
-          "end": 324.04
+          "start": 323.9,
+          "end": 324.4
         },
         {
           "text": "read.",
-          "start": 324.34,
-          "end": 324.78
+          "start": 324.7,
+          "end": 325.14
         }
       ]
     },
     {
       "id": "seg-062",
-      "start": 325.58,
-      "end": 326.1,
+      "start": 325.94,
+      "end": 326.46,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3380,15 +3380,15 @@
       "words": [
         {
           "text": "Mmhm.",
-          "start": 325.58,
-          "end": 326.1
+          "start": 325.94,
+          "end": 326.46
         }
       ]
     },
     {
       "id": "seg-063",
-      "start": 326.14,
-      "end": 326.62,
+      "start": 326.5,
+      "end": 326.98,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3399,15 +3399,15 @@
       "words": [
         {
           "text": "Okay.",
-          "start": 326.14,
-          "end": 326.62
+          "start": 326.5,
+          "end": 326.98
         }
       ]
     },
     {
       "id": "seg-064",
-      "start": 327.14,
-      "end": 332.68,
+      "start": 327.5,
+      "end": 333.04,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3418,35 +3418,35 @@
       "words": [
         {
           "text": "Ta,",
-          "start": 327.14,
-          "end": 327.82
+          "start": 327.5,
+          "end": 328.18
         },
         {
           "text": "shua,",
-          "start": 328.04,
-          "end": 328.92
+          "start": 328.4,
+          "end": 329.28
         },
         {
           "text": "ni,",
-          "start": 329.16,
-          "end": 330.44
+          "start": 329.52,
+          "end": 330.8
         },
         {
           "text": "xian,",
-          "start": 330.62,
-          "end": 332.24
+          "start": 330.98,
+          "end": 332.6
         },
         {
           "text": "zai.",
-          "start": 332.24,
-          "end": 332.68
+          "start": 332.6,
+          "end": 333.04
         }
       ]
     },
     {
       "id": "seg-065",
-      "start": 332.68,
-      "end": 332.86,
+      "start": 333.04,
+      "end": 333.22,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3457,25 +3457,25 @@
       "words": [
         {
           "text": "Ni",
-          "start": 332.68,
-          "end": 332.76
+          "start": 333.04,
+          "end": 333.12
         },
         {
           "text": "xian",
-          "start": 332.76,
-          "end": 332.81
+          "start": 333.12,
+          "end": 333.17
         },
         {
           "text": "zai.",
-          "start": 332.81,
-          "end": 332.86
+          "start": 333.17,
+          "end": 333.22
         }
       ]
     },
     {
       "id": "seg-066",
-      "start": 337.9,
-      "end": 341.94,
+      "start": 338.26,
+      "end": 342.3,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3486,48 +3486,48 @@
       "words": [
         {
           "text": "He",
-          "start": 337.9,
-          "end": 338.5
+          "start": 338.26,
+          "end": 338.86
         },
         {
           "text": "says",
-          "start": 338.5,
-          "end": 339.1
+          "start": 338.86,
+          "end": 339.46
         },
         {
           "text": "that",
-          "start": 339.1,
-          "end": 339.4
+          "start": 339.46,
+          "end": 339.76
         },
         {
           "text": "you",
-          "start": 339.4,
-          "end": 339.64
+          "start": 339.76,
+          "end": 340.0
         },
         {
           "text": "are",
-          "start": 339.64,
-          "end": 339.9
+          "start": 340.0,
+          "end": 340.26
         },
         {
           "text": "reading",
-          "start": 339.9,
-          "end": 340.44
+          "start": 340.26,
+          "end": 340.8
         },
         {
           "text": "the",
-          "start": 340.44,
-          "end": 341.24
+          "start": 340.8,
+          "end": 341.6
         },
         {
           "text": "book",
-          "start": 341.24,
-          "end": 341.5
+          "start": 341.6,
+          "end": 341.86
         },
         {
           "text": "now.",
-          "start": 341.5,
-          "end": 341.94
+          "start": 341.86,
+          "end": 342.3
         }
       ]
     },
@@ -3595,8 +3595,8 @@
     },
     {
       "id": "seg-068",
-      "start": 349.78,
-      "end": 352.1,
+      "start": 350.14,
+      "end": 352.46,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3607,48 +3607,48 @@
       "words": [
         {
           "text": "He",
-          "start": 349.78,
-          "end": 350.26
+          "start": 350.14,
+          "end": 350.62
         },
         {
           "text": "would",
-          "start": 350.26,
-          "end": 350.42
+          "start": 350.62,
+          "end": 350.78
         },
         {
           "text": "not",
-          "start": 350.42,
-          "end": 350.72
+          "start": 350.78,
+          "end": 351.08
         },
         {
           "text": "like",
-          "start": 350.72,
-          "end": 351.0
+          "start": 351.08,
+          "end": 351.36
         },
         {
           "text": "to",
-          "start": 351.0,
-          "end": 351.2
+          "start": 351.36,
+          "end": 351.56
         },
         {
           "text": "read",
-          "start": 351.2,
-          "end": 351.46
-        },
-        {
-          "text": "the",
-          "start": 351.46,
-          "end": 351.6
-        },
-        {
-          "text": "book",
-          "start": 351.6,
+          "start": 351.56,
           "end": 351.82
         },
         {
-          "text": "now.",
+          "text": "the",
           "start": 351.82,
-          "end": 352.1
+          "end": 351.96
+        },
+        {
+          "text": "book",
+          "start": 351.96,
+          "end": 352.18
+        },
+        {
+          "text": "now.",
+          "start": 352.18,
+          "end": 352.46
         }
       ]
     },
@@ -3710,8 +3710,8 @@
     },
     {
       "id": "seg-070",
-      "start": 361.86,
-      "end": 364.34,
+      "start": 362.22,
+      "end": 364.7,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3722,33 +3722,33 @@
       "words": [
         {
           "text": "How",
-          "start": 361.86,
-          "end": 362.6
+          "start": 362.22,
+          "end": 362.96
         },
         {
           "text": "do",
-          "start": 362.6,
-          "end": 362.92
+          "start": 362.96,
+          "end": 363.28
         },
         {
           "text": "you",
-          "start": 362.92,
-          "end": 363.08
+          "start": 363.28,
+          "end": 363.44
         },
         {
           "text": "say",
-          "start": 363.08,
-          "end": 363.32
+          "start": 363.44,
+          "end": 363.68
         },
         {
           "text": "would",
-          "start": 363.32,
-          "end": 363.98
+          "start": 363.68,
+          "end": 364.34
         },
         {
           "text": "like?",
-          "start": 363.98,
-          "end": 364.34
+          "start": 364.34,
+          "end": 364.7
         }
       ]
     },
@@ -3774,8 +3774,8 @@
     },
     {
       "id": "seg-072",
-      "start": 367.42,
-      "end": 369.84,
+      "start": 367.78,
+      "end": 370.2,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3786,54 +3786,54 @@
       "words": [
         {
           "text": "He",
-          "start": 367.42,
-          "end": 367.94
+          "start": 367.78,
+          "end": 368.3
         },
         {
           "text": "would",
-          "start": 367.94,
-          "end": 368.46
+          "start": 368.3,
+          "end": 368.82
         },
         {
           "text": "not",
-          "start": 368.46,
-          "end": 368.7
+          "start": 368.82,
+          "end": 369.06
         },
         {
           "text": "like",
-          "start": 368.7,
-          "end": 368.9
-        },
-        {
-          "text": "to",
-          "start": 368.9,
-          "end": 369.08
-        },
-        {
-          "text": "read",
-          "start": 369.08,
+          "start": 369.06,
           "end": 369.26
         },
         {
-          "text": "the",
+          "text": "to",
           "start": 369.26,
-          "end": 369.38
+          "end": 369.44
+        },
+        {
+          "text": "read",
+          "start": 369.44,
+          "end": 369.62
+        },
+        {
+          "text": "the",
+          "start": 369.62,
+          "end": 369.74
         },
         {
           "text": "book",
-          "start": 369.38,
-          "end": 369.54
+          "start": 369.74,
+          "end": 369.9
         },
         {
           "text": "now.",
-          "start": 369.54,
-          "end": 369.84
+          "start": 369.9,
+          "end": 370.2
         }
       ]
     },
     {
       "id": "seg-073",
-      "start": 369.92,
+      "start": 370.2,
       "end": 375.82,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -3889,8 +3889,8 @@
     },
     {
       "id": "seg-074",
-      "start": 376.52,
-      "end": 378.88,
+      "start": 376.88,
+      "end": 379.24,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3901,48 +3901,48 @@
       "words": [
         {
           "text": "Why",
-          "start": 376.52,
-          "end": 377.04
+          "start": 376.88,
+          "end": 377.4
         },
         {
           "text": "would",
-          "start": 377.04,
-          "end": 377.32
+          "start": 377.4,
+          "end": 377.68
         },
         {
           "text": "he",
-          "start": 377.32,
-          "end": 377.52
+          "start": 377.68,
+          "end": 377.88
         },
         {
           "text": "not",
-          "start": 377.52,
-          "end": 377.7
+          "start": 377.88,
+          "end": 378.06
         },
         {
           "text": "like",
-          "start": 377.7,
-          "end": 377.94
+          "start": 378.06,
+          "end": 378.3
         },
         {
           "text": "to",
-          "start": 377.94,
-          "end": 378.12
+          "start": 378.3,
+          "end": 378.48
         },
         {
           "text": "read",
-          "start": 378.12,
-          "end": 378.34
+          "start": 378.48,
+          "end": 378.7
         },
         {
           "text": "the",
-          "start": 378.34,
-          "end": 378.54
+          "start": 378.7,
+          "end": 378.9
         },
         {
           "text": "book?",
-          "start": 378.54,
-          "end": 378.88
+          "start": 378.9,
+          "end": 379.24
         }
       ]
     },
@@ -3980,8 +3980,8 @@
     },
     {
       "id": "seg-076",
-      "start": 383.36,
-      "end": 385.42,
+      "start": 383.72,
+      "end": 385.78,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -3992,55 +3992,55 @@
       "words": [
         {
           "text": "Why",
-          "start": 383.36,
-          "end": 383.88
+          "start": 383.72,
+          "end": 384.24
         },
         {
           "text": "would",
-          "start": 383.88,
-          "end": 384.2
+          "start": 384.24,
+          "end": 384.56
         },
         {
           "text": "he",
-          "start": 384.2,
-          "end": 384.36
+          "start": 384.56,
+          "end": 384.72
         },
         {
           "text": "not",
-          "start": 384.36,
-          "end": 384.54
-        },
-        {
-          "text": "like",
-          "start": 384.54,
-          "end": 384.76
-        },
-        {
-          "text": "to",
-          "start": 384.76,
+          "start": 384.72,
           "end": 384.9
         },
         {
-          "text": "read",
+          "text": "like",
           "start": 384.9,
-          "end": 385.02
+          "end": 385.12
+        },
+        {
+          "text": "to",
+          "start": 385.12,
+          "end": 385.26
+        },
+        {
+          "text": "read",
+          "start": 385.26,
+          "end": 385.38
         },
         {
           "text": "the",
-          "start": 385.02,
-          "end": 385.14
+          "start": 385.38,
+          "end": 385.5
         },
         {
           "text": "book?",
-          "start": 385.14,
-          "end": 385.42
+          "start": 385.5,
+          "end": 385.78
         }
       ]
     },
     {
       "id": "seg-077",
-      "start": 385.68,
-      "end": 389.4,
+      "start": 386.04,
+      "end": 389.76,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4051,48 +4051,48 @@
       "words": [
         {
           "text": "Why",
-          "start": 385.68,
-          "end": 386.04
+          "start": 386.04,
+          "end": 386.4
         },
         {
           "text": "he",
-          "start": 386.04,
-          "end": 386.42
+          "start": 386.4,
+          "end": 386.78
         },
         {
           "text": "not",
-          "start": 386.42,
-          "end": 387.84
+          "start": 386.78,
+          "end": 388.2
         },
         {
           "text": "would",
-          "start": 387.84,
-          "end": 388.14
-        },
-        {
-          "text": "like",
-          "start": 388.14,
+          "start": 388.2,
           "end": 388.5
         },
         {
-          "text": "to",
+          "text": "like",
           "start": 388.5,
-          "end": 388.6
+          "end": 388.86
+        },
+        {
+          "text": "to",
+          "start": 388.86,
+          "end": 388.96
         },
         {
           "text": "read",
-          "start": 388.6,
-          "end": 389.16
+          "start": 388.96,
+          "end": 389.52
         },
         {
           "text": "the",
-          "start": 389.16,
-          "end": 389.21
+          "start": 389.52,
+          "end": 389.57
         },
         {
           "text": "book?",
-          "start": 389.21,
-          "end": 389.4
+          "start": 389.57,
+          "end": 389.76
         }
       ]
     },
@@ -4142,8 +4142,8 @@
     },
     {
       "id": "seg-079",
-      "start": 397.36,
-      "end": 398.62,
+      "start": 397.72,
+      "end": 398.98,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4154,34 +4154,34 @@
       "words": [
         {
           "text": "How",
-          "start": 397.36,
-          "end": 397.8
+          "start": 397.72,
+          "end": 398.16
         },
         {
           "text": "would",
-          "start": 397.8,
-          "end": 398.06
+          "start": 398.16,
+          "end": 398.42
         },
         {
           "text": "you",
-          "start": 398.06,
-          "end": 398.11
+          "start": 398.42,
+          "end": 398.47
         },
         {
           "text": "say",
-          "start": 398.11,
-          "end": 398.36
+          "start": 398.47,
+          "end": 398.72
         },
         {
           "text": "why?",
-          "start": 398.36,
-          "end": 398.62
+          "start": 398.72,
+          "end": 398.98
         }
       ]
     },
     {
       "id": "seg-080",
-      "start": 398.7,
+      "start": 398.98,
       "end": 400.12,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -4213,8 +4213,8 @@
     },
     {
       "id": "seg-081",
-      "start": 401.02,
-      "end": 401.46,
+      "start": 401.38,
+      "end": 401.82,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4225,14 +4225,14 @@
       "words": [
         {
           "text": "Good.",
-          "start": 401.02,
-          "end": 401.46
+          "start": 401.38,
+          "end": 401.82
         }
       ]
     },
     {
       "id": "seg-082",
-      "start": 401.54,
+      "start": 401.82,
       "end": 402.52,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -4264,8 +4264,8 @@
     },
     {
       "id": "seg-083",
-      "start": 403.96,
-      "end": 404.68,
+      "start": 404.32,
+      "end": 405.04,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4276,24 +4276,24 @@
       "words": [
         {
           "text": "Way",
-          "start": 403.96,
-          "end": 404.4
+          "start": 404.32,
+          "end": 404.76
         },
         {
           "text": "to",
-          "start": 404.4,
-          "end": 404.52
+          "start": 404.76,
+          "end": 404.88
         },
         {
           "text": "go.",
-          "start": 404.52,
-          "end": 404.68
+          "start": 404.88,
+          "end": 405.04
         }
       ]
     },
     {
       "id": "seg-084",
-      "start": 404.76,
+      "start": 405.04,
       "end": 406.36,
       "speaker": "student_male",
       "speakerName": "Student (Male)",
@@ -4325,8 +4325,8 @@
     },
     {
       "id": "seg-085",
-      "start": 408.74,
-      "end": 410.7,
+      "start": 409.1,
+      "end": 411.06,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4337,54 +4337,54 @@
       "words": [
         {
           "text": "Why",
-          "start": 408.74,
-          "end": 409.18
+          "start": 409.1,
+          "end": 409.54
         },
         {
           "text": "would",
-          "start": 409.18,
-          "end": 409.38
-        },
-        {
-          "text": "he",
-          "start": 409.38,
-          "end": 409.58
-        },
-        {
-          "text": "not",
-          "start": 409.58,
+          "start": 409.54,
           "end": 409.74
         },
         {
-          "text": "like",
+          "text": "he",
           "start": 409.74,
-          "end": 409.96
+          "end": 409.94
+        },
+        {
+          "text": "not",
+          "start": 409.94,
+          "end": 410.1
+        },
+        {
+          "text": "like",
+          "start": 410.1,
+          "end": 410.32
         },
         {
           "text": "to",
-          "start": 409.96,
-          "end": 410.12
-        },
-        {
-          "text": "read",
-          "start": 410.12,
-          "end": 410.34
-        },
-        {
-          "text": "the",
-          "start": 410.34,
+          "start": 410.32,
           "end": 410.48
         },
         {
-          "text": "book?",
+          "text": "read",
           "start": 410.48,
           "end": 410.7
+        },
+        {
+          "text": "the",
+          "start": 410.7,
+          "end": 410.84
+        },
+        {
+          "text": "book?",
+          "start": 410.84,
+          "end": 411.06
         }
       ]
     },
     {
       "id": "seg-086",
-      "start": 410.94,
+      "start": 411.06,
       "end": 416.0,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -4446,8 +4446,8 @@
     },
     {
       "id": "seg-087",
-      "start": 416.86,
-      "end": 420.96,
+      "start": 417.22,
+      "end": 421.32,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4458,95 +4458,95 @@
       "words": [
         {
           "text": "He",
-          "start": 416.86,
-          "end": 417.3
+          "start": 417.22,
+          "end": 417.66
         },
         {
           "text": "says",
-          "start": 417.3,
-          "end": 417.56
+          "start": 417.66,
+          "end": 417.92
         },
         {
           "text": "that",
-          "start": 417.56,
-          "end": 417.76
+          "start": 417.92,
+          "end": 418.12
         },
         {
           "text": "now",
-          "start": 417.76,
-          "end": 417.96
-        },
-        {
-          "text": "he",
-          "start": 417.96,
-          "end": 418.2
-        },
-        {
-          "text": "is",
-          "start": 418.2,
+          "start": 418.12,
           "end": 418.32
         },
         {
-          "text": "very",
+          "text": "he",
           "start": 418.32,
-          "end": 418.54
+          "end": 418.56
+        },
+        {
+          "text": "is",
+          "start": 418.56,
+          "end": 418.68
+        },
+        {
+          "text": "very",
+          "start": 418.68,
+          "end": 418.9
         },
         {
           "text": "busy",
-          "start": 418.54,
-          "end": 418.98
+          "start": 418.9,
+          "end": 419.34
         },
         {
           "text": "and",
-          "start": 418.98,
-          "end": 419.6
-        },
-        {
-          "text": "he",
-          "start": 419.6,
-          "end": 419.82
-        },
-        {
-          "text": "would",
-          "start": 419.82,
+          "start": 419.34,
           "end": 419.96
         },
         {
-          "text": "not",
+          "text": "he",
           "start": 419.96,
-          "end": 420.12
+          "end": 420.18
         },
         {
-          "text": "like",
-          "start": 420.12,
-          "end": 420.3
+          "text": "would",
+          "start": 420.18,
+          "end": 420.32
         },
         {
-          "text": "to",
-          "start": 420.3,
+          "text": "not",
+          "start": 420.32,
           "end": 420.48
         },
         {
-          "text": "read",
+          "text": "like",
           "start": 420.48,
           "end": 420.66
         },
         {
-          "text": "it",
+          "text": "to",
           "start": 420.66,
-          "end": 420.78
+          "end": 420.84
+        },
+        {
+          "text": "read",
+          "start": 420.84,
+          "end": 421.02
+        },
+        {
+          "text": "it",
+          "start": 421.02,
+          "end": 421.14
         },
         {
           "text": "now.",
-          "start": 420.78,
-          "end": 420.96
+          "start": 421.14,
+          "end": 421.32
         }
       ]
     },
     {
       "id": "seg-088",
-      "start": 422.24,
-      "end": 424.92,
+      "start": 422.6,
+      "end": 425.28,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4557,50 +4557,50 @@
       "words": [
         {
           "text": "He",
-          "start": 422.24,
-          "end": 422.88
+          "start": 422.6,
+          "end": 423.24
         },
         {
           "text": "says",
-          "start": 422.88,
-          "end": 423.2
+          "start": 423.24,
+          "end": 423.56
         },
         {
           "text": "that",
-          "start": 423.2,
-          "end": 423.52
+          "start": 423.56,
+          "end": 423.88
         },
         {
           "text": "he",
-          "start": 423.52,
-          "end": 423.72
+          "start": 423.88,
+          "end": 424.08
         },
         {
           "text": "is",
-          "start": 423.72,
-          "end": 423.92
+          "start": 424.08,
+          "end": 424.28
         },
         {
           "text": "very",
-          "start": 423.92,
-          "end": 424.22
+          "start": 424.28,
+          "end": 424.58
         },
         {
           "text": "busy",
-          "start": 424.22,
-          "end": 424.6
+          "start": 424.58,
+          "end": 424.96
         },
         {
           "text": "now.",
-          "start": 424.6,
-          "end": 424.92
+          "start": 424.96,
+          "end": 425.28
         }
       ]
     },
     {
       "id": "seg-089",
-      "start": 425.1,
-      "end": 426.06,
+      "start": 425.46,
+      "end": 426.42,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4611,19 +4611,19 @@
       "words": [
         {
           "text": "He",
-          "start": 425.1,
-          "end": 425.64
+          "start": 425.46,
+          "end": 426.0
         },
         {
           "text": "says",
-          "start": 425.64,
-          "end": 426.06
+          "start": 426.0,
+          "end": 426.42
         }
       ]
     },
     {
       "id": "seg-090",
-      "start": 426.14,
+      "start": 426.42,
       "end": 429.94,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -4636,21 +4636,21 @@
         {
           "hanzi": "他",
           "pinyin": "tā",
-          "start": 426.14,
-          "end": 428.04
+          "start": 426.42,
+          "end": 428.18
         },
         {
           "hanzi": "说",
           "pinyin": "shuō",
-          "start": 428.04,
+          "start": 428.18,
           "end": 429.94
         }
       ]
     },
     {
       "id": "seg-091",
-      "start": 431.38,
-      "end": 433.64,
+      "start": 431.74,
+      "end": 434.0,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4661,35 +4661,35 @@
       "words": [
         {
           "text": "He",
-          "start": 431.38,
-          "end": 432.02
+          "start": 431.74,
+          "end": 432.38
         },
         {
           "text": "is",
-          "start": 432.02,
-          "end": 432.66
+          "start": 432.38,
+          "end": 433.02
         },
         {
           "text": "very",
-          "start": 432.66,
-          "end": 432.9
+          "start": 433.02,
+          "end": 433.26
         },
         {
           "text": "busy",
-          "start": 432.9,
-          "end": 433.28
+          "start": 433.26,
+          "end": 433.64
         },
         {
           "text": "now.",
-          "start": 433.28,
-          "end": 433.64
+          "start": 433.64,
+          "end": 434.0
         }
       ]
     },
     {
       "id": "seg-092",
-      "start": 434.46,
-      "end": 436.44,
+      "start": 434.82,
+      "end": 436.8,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4700,35 +4700,35 @@
       "words": [
         {
           "text": "He",
-          "start": 434.46,
-          "end": 435.1
+          "start": 434.82,
+          "end": 435.46
         },
         {
           "text": "now",
-          "start": 435.1,
-          "end": 435.74
+          "start": 435.46,
+          "end": 436.1
         },
         {
           "text": "is",
-          "start": 435.74,
-          "end": 435.94
+          "start": 436.1,
+          "end": 436.3
         },
         {
           "text": "very",
-          "start": 435.94,
-          "end": 436.12
+          "start": 436.3,
+          "end": 436.48
         },
         {
           "text": "busy.",
-          "start": 436.12,
-          "end": 436.44
+          "start": 436.48,
+          "end": 436.8
         }
       ]
     },
     {
       "id": "seg-093",
-      "start": 436.62,
-      "end": 437.26,
+      "start": 436.98,
+      "end": 437.62,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4739,14 +4739,14 @@
       "words": [
         {
           "text": "Correct.",
-          "start": 436.62,
-          "end": 437.26
+          "start": 436.98,
+          "end": 437.62
         }
       ]
     },
     {
       "id": "seg-094",
-      "start": 437.48,
+      "start": 437.62,
       "end": 442.36,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -4790,8 +4790,8 @@
     },
     {
       "id": "seg-095",
-      "start": 442.36,
-      "end": 444.88,
+      "start": 442.72,
+      "end": 445.24,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4802,49 +4802,49 @@
       "words": [
         {
           "text": "He",
-          "start": 442.36,
-          "end": 443.18
+          "start": 442.72,
+          "end": 443.54
         },
         {
           "text": "says",
-          "start": 443.18,
-          "end": 443.48
-        },
-        {
-          "text": "that",
-          "start": 443.48,
+          "start": 443.54,
           "end": 443.84
         },
         {
-          "text": "he",
+          "text": "that",
           "start": 443.84,
-          "end": 443.96
+          "end": 444.2
+        },
+        {
+          "text": "he",
+          "start": 444.2,
+          "end": 444.32
         },
         {
           "text": "is",
-          "start": 443.96,
-          "end": 444.08
+          "start": 444.32,
+          "end": 444.44
         },
         {
           "text": "very",
-          "start": 444.08,
-          "end": 444.28
+          "start": 444.44,
+          "end": 444.64
         },
         {
           "text": "busy",
-          "start": 444.28,
-          "end": 444.58
+          "start": 444.64,
+          "end": 444.94
         },
         {
           "text": "now.",
-          "start": 444.58,
-          "end": 444.88
+          "start": 444.94,
+          "end": 445.24
         }
       ]
     },
     {
       "id": "seg-096",
-      "start": 444.96,
+      "start": 445.24,
       "end": 450.44,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -4900,8 +4900,8 @@
     },
     {
       "id": "seg-097",
-      "start": 451.1,
-      "end": 451.58,
+      "start": 451.46,
+      "end": 451.94,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4912,15 +4912,15 @@
       "words": [
         {
           "text": "Correct.",
-          "start": 451.1,
-          "end": 451.58
+          "start": 451.46,
+          "end": 451.94
         }
       ]
     },
     {
       "id": "seg-098",
-      "start": 451.58,
-      "end": 451.84,
+      "start": 451.94,
+      "end": 452.2,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4931,20 +4931,20 @@
       "words": [
         {
           "text": "And",
-          "start": 451.58,
-          "end": 451.63
+          "start": 451.94,
+          "end": 451.99
         },
         {
           "text": "repeat.",
-          "start": 451.63,
-          "end": 451.84
+          "start": 451.99,
+          "end": 452.2
         }
       ]
     },
     {
       "id": "seg-099",
-      "start": 451.84,
-      "end": 454.68,
+      "start": 452.2,
+      "end": 455.04,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -4955,70 +4955,70 @@
       "words": [
         {
           "text": "Referring",
-          "start": 451.84,
-          "end": 452.1
+          "start": 452.2,
+          "end": 452.46
         },
         {
           "text": "to",
-          "start": 452.1,
-          "end": 452.18
+          "start": 452.46,
+          "end": 452.54
         },
         {
           "text": "the",
-          "start": 452.18,
-          "end": 452.32
+          "start": 452.54,
+          "end": 452.68
         },
         {
           "text": "book,",
-          "start": 452.32,
-          "end": 452.6
+          "start": 452.68,
+          "end": 452.96
         },
         {
           "text": "he",
-          "start": 452.74,
-          "end": 453.1
+          "start": 453.1,
+          "end": 453.46
         },
         {
           "text": "would",
-          "start": 453.1,
-          "end": 453.32
+          "start": 453.46,
+          "end": 453.68
         },
         {
           "text": "not",
-          "start": 453.32,
-          "end": 453.56
+          "start": 453.68,
+          "end": 453.92
         },
         {
           "text": "like",
-          "start": 453.56,
-          "end": 453.8
+          "start": 453.92,
+          "end": 454.16
         },
         {
           "text": "to",
-          "start": 453.8,
-          "end": 453.98
+          "start": 454.16,
+          "end": 454.34
         },
         {
           "text": "read",
-          "start": 453.98,
-          "end": 454.22
+          "start": 454.34,
+          "end": 454.58
         },
         {
           "text": "it",
-          "start": 454.22,
-          "end": 454.38
+          "start": 454.58,
+          "end": 454.74
         },
         {
           "text": "now.",
-          "start": 454.38,
-          "end": 454.68
+          "start": 454.74,
+          "end": 455.04
         }
       ]
     },
     {
       "id": "seg-100",
-      "start": 455.44,
-      "end": 457.68,
+      "start": 455.8,
+      "end": 458.04,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5029,43 +5029,43 @@
       "words": [
         {
           "text": "He",
-          "start": 455.44,
-          "end": 455.92
-        },
-        {
-          "text": "would",
-          "start": 455.92,
+          "start": 455.8,
           "end": 456.28
         },
         {
-          "text": "not",
+          "text": "would",
           "start": 456.28,
-          "end": 456.54
+          "end": 456.64
+        },
+        {
+          "text": "not",
+          "start": 456.64,
+          "end": 456.9
         },
         {
           "text": "like",
-          "start": 456.54,
-          "end": 456.78
+          "start": 456.9,
+          "end": 457.14
         },
         {
           "text": "to",
-          "start": 456.78,
-          "end": 457.0
-        },
-        {
-          "text": "read",
-          "start": 457.0,
-          "end": 457.18
-        },
-        {
-          "text": "it",
-          "start": 457.18,
+          "start": 457.14,
           "end": 457.36
         },
         {
-          "text": "now.",
+          "text": "read",
           "start": 457.36,
-          "end": 457.68
+          "end": 457.54
+        },
+        {
+          "text": "it",
+          "start": 457.54,
+          "end": 457.72
+        },
+        {
+          "text": "now.",
+          "start": 457.72,
+          "end": 458.04
         }
       ]
     },
@@ -5127,8 +5127,8 @@
     },
     {
       "id": "seg-102",
-      "start": 472.3,
-      "end": 473.92,
+      "start": 472.66,
+      "end": 474.28,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5139,49 +5139,49 @@
       "words": [
         {
           "text": "He",
-          "start": 472.3,
-          "end": 472.78
-        },
-        {
-          "text": "would",
-          "start": 472.78,
-          "end": 472.94
-        },
-        {
-          "text": "not",
-          "start": 472.94,
+          "start": 472.66,
           "end": 473.14
         },
         {
-          "text": "like",
+          "text": "would",
           "start": 473.14,
-          "end": 473.34
+          "end": 473.3
+        },
+        {
+          "text": "not",
+          "start": 473.3,
+          "end": 473.5
+        },
+        {
+          "text": "like",
+          "start": 473.5,
+          "end": 473.7
         },
         {
           "text": "to",
-          "start": 473.34,
-          "end": 473.48
+          "start": 473.7,
+          "end": 473.84
         },
         {
           "text": "read",
-          "start": 473.48,
-          "end": 473.62
+          "start": 473.84,
+          "end": 473.98
         },
         {
           "text": "it",
-          "start": 473.62,
-          "end": 473.74
+          "start": 473.98,
+          "end": 474.1
         },
         {
           "text": "now.",
-          "start": 473.74,
-          "end": 473.92
+          "start": 474.1,
+          "end": 474.28
         }
       ]
     },
     {
       "id": "seg-103",
-      "start": 474.0,
+      "start": 474.28,
       "end": 479.24,
       "speaker": "student_female",
       "speakerName": "Student (Female)",
@@ -5237,8 +5237,8 @@
     },
     {
       "id": "seg-104",
-      "start": 479.88,
-      "end": 481.77,
+      "start": 480.24,
+      "end": 482.13,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5249,45 +5249,45 @@
       "words": [
         {
           "text": "So",
-          "start": 479.88,
-          "end": 480.36
+          "start": 480.24,
+          "end": 480.72
         },
         {
           "text": "you",
-          "start": 480.36,
-          "end": 480.5
+          "start": 480.72,
+          "end": 480.86
         },
         {
           "text": "notice",
-          "start": 480.5,
-          "end": 480.78
+          "start": 480.86,
+          "end": 481.14
         },
         {
           "text": "here",
-          "start": 480.78,
-          "end": 481.06
+          "start": 481.14,
+          "end": 481.42
         },
         {
           "text": "that",
-          "start": 481.06,
-          "end": 481.36
-        },
-        {
-          "text": "instead",
-          "start": 481.36,
+          "start": 481.42,
           "end": 481.72
         },
         {
-          "text": "of",
+          "text": "instead",
           "start": 481.72,
-          "end": 481.77
+          "end": 482.08
+        },
+        {
+          "text": "of",
+          "start": 482.08,
+          "end": 482.13
         }
       ]
     },
     {
       "id": "seg-105",
-      "start": 481.77,
-      "end": 485.5,
+      "start": 482.13,
+      "end": 485.86,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5298,40 +5298,40 @@
       "words": [
         {
           "text": "saying",
-          "start": 481.77,
-          "end": 481.92
+          "start": 482.13,
+          "end": 482.28
         },
         {
           "text": "看书",
-          "start": 481.92,
-          "end": 483.54
+          "start": 482.28,
+          "end": 483.9
         },
         {
           "text": "to",
-          "start": 483.54,
-          "end": 484.18
+          "start": 483.9,
+          "end": 484.54
         },
         {
           "text": "read",
-          "start": 484.18,
-          "end": 485.1
+          "start": 484.54,
+          "end": 485.46
         },
         {
           "text": "a",
-          "start": 485.1,
-          "end": 485.2
+          "start": 485.46,
+          "end": 485.56
         },
         {
           "text": "book,",
-          "start": 485.2,
-          "end": 485.5
+          "start": 485.56,
+          "end": 485.86
         }
       ]
     },
     {
       "id": "seg-106",
-      "start": 487.06,
-      "end": 489.14,
+      "start": 487.42,
+      "end": 489.5,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5342,30 +5342,30 @@
       "words": [
         {
           "text": "看他",
-          "start": 487.06,
-          "end": 487.68
+          "start": 487.42,
+          "end": 488.04
         },
         {
           "text": "to",
-          "start": 487.68,
-          "end": 488.3
+          "start": 488.04,
+          "end": 488.66
         },
         {
           "text": "read",
-          "start": 488.3,
-          "end": 488.84
+          "start": 488.66,
+          "end": 489.2
         },
         {
           "text": "it,",
-          "start": 488.84,
-          "end": 489.14
+          "start": 489.2,
+          "end": 489.5
         }
       ]
     },
     {
       "id": "seg-107",
-      "start": 489.24,
-      "end": 490.84,
+      "start": 489.6,
+      "end": 491.2,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5376,40 +5376,40 @@
       "words": [
         {
           "text": "referring",
-          "start": 489.24,
-          "end": 489.58
+          "start": 489.6,
+          "end": 489.94
         },
         {
           "text": "to",
-          "start": 489.58,
-          "end": 489.88
+          "start": 489.94,
+          "end": 490.24
         },
         {
           "text": "the",
-          "start": 489.88,
-          "end": 490.02
+          "start": 490.24,
+          "end": 490.38
         },
         {
           "text": "book",
-          "start": 490.02,
-          "end": 490.28
+          "start": 490.38,
+          "end": 490.64
         },
         {
           "text": "was",
-          "start": 490.28,
-          "end": 490.46
+          "start": 490.64,
+          "end": 490.82
         },
         {
           "text": "used.",
-          "start": 490.46,
-          "end": 490.84
+          "start": 490.82,
+          "end": 491.2
         }
       ]
     },
     {
       "id": "seg-108",
-      "start": 491.1,
-      "end": 494.18,
+      "start": 491.46,
+      "end": 494.54,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5420,65 +5420,65 @@
       "words": [
         {
           "text": "So",
-          "start": 491.1,
-          "end": 491.72
+          "start": 491.46,
+          "end": 492.08
         },
         {
           "text": "either",
-          "start": 491.72,
-          "end": 491.94
+          "start": 492.08,
+          "end": 492.3
         },
         {
           "text": "way",
-          "start": 491.94,
-          "end": 492.18
+          "start": 492.3,
+          "end": 492.54
         },
         {
           "text": "is",
-          "start": 492.18,
-          "end": 492.32
+          "start": 492.54,
+          "end": 492.68
         },
         {
           "text": "acceptable",
-          "start": 492.32,
-          "end": 492.76
+          "start": 492.68,
+          "end": 493.12
         },
         {
           "text": "and",
-          "start": 492.76,
-          "end": 493.1
+          "start": 493.12,
+          "end": 493.46
         },
         {
           "text": "you",
-          "start": 493.1,
-          "end": 493.26
+          "start": 493.46,
+          "end": 493.62
         },
         {
           "text": "will",
-          "start": 493.26,
-          "end": 493.4
+          "start": 493.62,
+          "end": 493.76
         },
         {
           "text": "hear",
-          "start": 493.4,
-          "end": 493.6
+          "start": 493.76,
+          "end": 493.96
         },
         {
           "text": "both",
-          "start": 493.6,
-          "end": 493.8
+          "start": 493.96,
+          "end": 494.16
         },
         {
           "text": "ways.",
-          "start": 493.8,
-          "end": 494.18
+          "start": 494.16,
+          "end": 494.54
         }
       ]
     },
     {
       "id": "seg-109",
-      "start": 495.18,
-      "end": 498.76,
+      "start": 495.54,
+      "end": 499.12,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5489,50 +5489,50 @@
       "words": [
         {
           "text": "We",
-          "start": 495.18,
-          "end": 495.8
+          "start": 495.54,
+          "end": 496.16
         },
         {
           "text": "haven't",
-          "start": 495.8,
-          "end": 496.14
+          "start": 496.16,
+          "end": 496.5
         },
         {
           "text": "used",
-          "start": 496.14,
-          "end": 496.46
+          "start": 496.5,
+          "end": 496.82
         },
         {
           "text": "他",
-          "start": 496.46,
-          "end": 496.84
+          "start": 496.82,
+          "end": 497.2
         },
         {
           "text": "very",
-          "start": 496.84,
-          "end": 497.74
+          "start": 497.2,
+          "end": 498.1
         },
         {
           "text": "much",
-          "start": 497.74,
-          "end": 498.16
+          "start": 498.1,
+          "end": 498.52
         },
         {
           "text": "for",
-          "start": 498.16,
-          "end": 498.42
+          "start": 498.52,
+          "end": 498.78
         },
         {
           "text": "it,",
-          "start": 498.42,
-          "end": 498.76
+          "start": 498.78,
+          "end": 499.12
         }
       ]
     },
     {
       "id": "seg-110",
-      "start": 499.5,
-      "end": 502.94,
+      "start": 499.86,
+      "end": 503.3,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5543,55 +5543,55 @@
       "words": [
         {
           "text": "but",
-          "start": 499.5,
-          "end": 499.7
+          "start": 499.86,
+          "end": 500.06
         },
         {
           "text": "他",
-          "start": 499.7,
-          "end": 500.14
+          "start": 500.06,
+          "end": 500.5
         },
         {
           "text": "may",
-          "start": 500.14,
-          "end": 501.24
+          "start": 500.5,
+          "end": 501.6
         },
         {
           "text": "be",
-          "start": 501.24,
-          "end": 501.46
+          "start": 501.6,
+          "end": 501.82
         },
         {
           "text": "used",
-          "start": 501.46,
-          "end": 501.88
+          "start": 501.82,
+          "end": 502.24
         },
         {
           "text": "for",
-          "start": 501.88,
-          "end": 502.36
-        },
-        {
-          "text": "it",
-          "start": 502.36,
-          "end": 502.52
-        },
-        {
-          "text": "as",
-          "start": 502.52,
+          "start": 502.24,
           "end": 502.72
         },
         {
-          "text": "well",
+          "text": "it",
           "start": 502.72,
-          "end": 502.94
+          "end": 502.88
+        },
+        {
+          "text": "as",
+          "start": 502.88,
+          "end": 503.08
+        },
+        {
+          "text": "well",
+          "start": 503.08,
+          "end": 503.3
         }
       ]
     },
     {
       "id": "seg-111",
-      "start": 502.94,
-      "end": 506.46,
+      "start": 503.3,
+      "end": 506.82,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5602,50 +5602,50 @@
       "words": [
         {
           "text": "in",
-          "start": 502.94,
-          "end": 503.46
+          "start": 503.3,
+          "end": 503.82
         },
         {
           "text": "sentences",
-          "start": 503.46,
-          "end": 504.0
+          "start": 503.82,
+          "end": 504.36
         },
         {
           "text": "wherever",
-          "start": 504.0,
-          "end": 504.84
+          "start": 504.36,
+          "end": 505.2
         },
         {
           "text": "you",
-          "start": 504.84,
-          "end": 505.34
+          "start": 505.2,
+          "end": 505.7
         },
         {
           "text": "wish",
-          "start": 505.34,
-          "end": 505.86
+          "start": 505.7,
+          "end": 506.22
         },
         {
           "text": "to",
-          "start": 505.86,
-          "end": 506.04
+          "start": 506.22,
+          "end": 506.4
         },
         {
           "text": "use",
-          "start": 506.04,
-          "end": 506.24
+          "start": 506.4,
+          "end": 506.6
         },
         {
           "text": "it.",
-          "start": 506.24,
-          "end": 506.46
+          "start": 506.6,
+          "end": 506.82
         }
       ]
     },
     {
       "id": "seg-112",
-      "start": 506.64,
-      "end": 509.22,
+      "start": 507.0,
+      "end": 509.58,
       "speaker": "teacher",
       "speakerName": "Harold Goodman (Teacher)",
       "type": "instruction",
@@ -5656,48 +5656,48 @@
       "words": [
         {
           "text": "And",
-          "start": 506.64,
-          "end": 506.98
+          "start": 507.0,
+          "end": 507.34
         },
         {
           "text": "you",
-          "start": 506.98,
-          "end": 507.16
-        },
-        {
-          "text": "will",
-          "start": 507.16,
-          "end": 507.3
-        },
-        {
-          "text": "hear",
-          "start": 507.3,
+          "start": 507.34,
           "end": 507.52
         },
         {
-          "text": "this",
+          "text": "will",
           "start": 507.52,
-          "end": 507.8
+          "end": 507.66
+        },
+        {
+          "text": "hear",
+          "start": 507.66,
+          "end": 507.88
+        },
+        {
+          "text": "this",
+          "start": 507.88,
+          "end": 508.16
         },
         {
           "text": "also",
-          "start": 507.8,
-          "end": 508.06
+          "start": 508.16,
+          "end": 508.42
         },
         {
           "text": "in",
-          "start": 508.06,
-          "end": 508.52
+          "start": 508.42,
+          "end": 508.88
         },
         {
           "text": "spoken",
-          "start": 508.52,
-          "end": 508.8
+          "start": 508.88,
+          "end": 509.16
         },
         {
           "text": "Chinese.",
-          "start": 508.8,
-          "end": 509.22
+          "start": 509.16,
+          "end": 509.58
         }
       ]
     }

@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "playwright test",
-    "validate": "python3 scripts/validate_transcript.py public/data/foundation_cd01_track01.json"
+    "validate": "python3 scripts/validate_transcript.py public/data/foundation_cd01_track01.json",
+    "check-sync": "python3 scripts/check_sync.py --all"
   },
   "devDependencies": {
     "@capacitor/cli": "^8.6.0",
