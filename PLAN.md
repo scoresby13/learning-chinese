@@ -134,7 +134,7 @@ We will use Gemini's multimodal audio transcription capabilities to process each
 ### 4.2. Key Components & Features
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│ Learning Chinese                     [Pinyin: ON|OFF]   │
+│ Learning Chinese                             [Pinyin: ON|OFF]   │
 │ Track: Foundation CD1 - Track 01              [Auto-Scroll: ON] │
 ├───────────────────────────────┬─────────────────────────────────┤
 │ Track Selector (Sidebar)      │ Transcript Viewport (Karaoke)   │
